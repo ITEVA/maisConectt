@@ -1,0 +1,194 @@
+/********************* PLANOS *********************/
+
+#planosResidenciais {
+    display: block;
+    position: relative;
+    width: 1152px;
+    height: auto;
+    margin: auto;
+}
+
+#planosCorporativos {
+    display: block;
+    position: relative;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+
+.row .col4 {
+    width: 345px;
+    margin: 0 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.row .col6 {
+    width: 403px;
+    margin: 0 20px;
+    display: inline-block;
+    position: relative;
+}
+
+.verde h2 {
+    color: #fff;
+    padding-top: 10px;
+}
+
+.verde p {
+    color: #fff;
+    padding-top: 0px;
+    text-align: center;
+}
+
+hr {
+    border: 2px solid #cdcdcd;
+}
+
+.btnPlanos {
+    width: 75%;
+    height: 80px;
+    margin-top: 30px;
+    background-color: #18a394;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+}
+
+.quadroPlano {
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    /*border-radius: 5%;*/
+}
+
+.quadroPlano  h3 {
+    font-size: 30px;
+}
+
+.quadroP hr {
+    width: 90%;
+}
+
+.quadroG hr{
+    width: 90%;
+}
+
+.bgGray {
+    display: block;
+    position: relative;
+    background-color: #f0f0f0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding-bottom: 38px;
+}
+
+.quadroG{
+    width: 403px;
+    /*background-color: #f8f8f8;*/
+}
+
+
+.verde {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 97px;
+    background-color: #2fac69;
+    color: #fff;
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+
+.quadroP{
+    width: 345px;
+}
+
+
+
+/********** @MEDIAS **********/
+@media all and (max-width: 1200px) {
+    #planosResidenciais {
+        width: 80%;
+    }
+    #planosCorporativos {
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .row .col4, .row .col6 {
+        width: 320px;
+    }
+
+    .quadroP, .quadroG{
+        width: 320px;
+    }
+
+    .verde h2 {
+        padding-top: 8px;
+    }
+
+    .btnPlanos {
+        width: 70%;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .quadroPlano {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .quadroPlano  h3 {
+        font-size: 25px;
+    }
+
+    .bgGray {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-bottom: 35px;
+    }
+}
+
+
+@media all and (max-width: 400px) {
+    .row .col4, .row .col6 {
+        width: 230px;
+        margin: 0px;
+    }
+
+    .quadroP, .quadroG {
+        width: 230px;
+    }
+
+    .verde h2 {
+        padding-top: 6px;
+    }
+
+    .btnPlanos {
+        width: 70%;
+        height: 60px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .quadroPlano {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .quadroPlano  h3 {
+        font-size: 20px;
+    }
+
+    .bgGray {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        padding-bottom: 35px;
+    }
+}

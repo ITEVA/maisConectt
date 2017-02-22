@@ -1,0 +1,457 @@
+/********** HOME **********/
+
+.txtBanner {
+    position: absolute;
+    left: 0;
+    margin-top: 8%;
+}
+
+.margemTop {
+    margin-top: 18%;
+}
+
+#nossoCliente {
+    width: 99vw;
+    background: #fbfbfb;
+    background-image: url("../Images/bgIcon.png");
+    padding: 0px;
+}
+
+.carousel-indicators {
+    left: 50.6%;
+}
+
+.triangle-down {
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 20px solid #85c6ad;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9997;
+}
+
+#txtNossoCliente {
+    padding: 20px;
+    display: inline-block;
+    width: 40%;
+    margin-left: 10%;
+    vertical-align: top;
+}
+
+#imgNossoCliente {
+    display: inline-block;
+    width: 45%;
+    padding: 0px;
+    vertical-align: bottom;
+}
+
+#setaNossoCliente {
+    border-top-color: #f4f4f4;
+    z-index: 0;
+}
+
+/* Planos */
+
+#planosHome {
+    display: block;
+    position: relative;
+    width: 97vw;
+    height: auto;
+    padding: 0px;
+    text-align: center
+}
+
+#txtPlanosHome{
+    text-align: center;
+    margin: auto;
+}
+
+#planosDestaque {
+    display: block;
+    position: relative;
+    /*margin-top: 30px;*/
+    width: 1300px;
+    margin: auto;
+}
+
+/* Texto do Banner */
+/********** BANNER 1 **********/
+#bandaLarga {
+    width: 35.4166%;
+    margin-left: 50%;
+    margin-top: 10%;
+}
+#bandaLarga img { width: 100%; }
+
+#oferta { width: 17%; margin-left: 50%; }
+
+#oferta img { width: 100%; }
+
+#mega25 { width: 17%; margin-left: 68%; }
+
+#mega25 img { width: 100%; }
+
+/********** BANNER 2 **********/
+
+#rede { width: 35.4166%; }
+
+#rede img { width: 100%; }
+
+#fibra {
+    width: 35.4166%;
+    margin-left: 50%;
+    margin-top: 14%;
+}
+
+#fibra img { width: 100%; }
+
+#confira { width: 25%; margin-top: 20.5%; }
+
+#confira img { width: 100%; }
+
+#rede, #fibra, #confira {margin-left: 55%; }
+
+/********** BANNER 3 **********/
+
+#btnBanner3 {
+    margin-left: 55%;
+}
+
+/********************/
+.btnBanner {
+    display: block;
+    position: absolute;
+    margin-left: 83%;
+    margin-top: 22.3%;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+}
+
+.btnBanner button {
+    background-color: #342c5a;
+    border-radius: 3px;
+    border: 2px solid #342c5a;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.btnBanner button:hover {
+    background-color: transparent;
+    color: #342c5a;
+    font-weight: bold;
+}
+
+/********** @MEDIAS **********/
+@media all and (max-width: 1500px) {
+    .btnBanner {
+        margin-left: 55%;
+        margin-top: 25%;
+    }
+
+    .quadroG {
+        width: 340px;
+        padding-bottom: 35px;
+    }
+
+}
+
+@media all and (max-width: 1400px) {
+    #planosDestaque {
+        width: 97vw;
+    }
+}
+
+@media all and (max-width: 1300px) {
+    #txtNossoCliente {
+        padding-right: 0px;
+    }
+
+    #txtNossoCliente h1 {
+        font-size: 50px;
+    }
+
+    #imgNossoCliente {
+        width: 49%;
+    }
+
+    .quadroG {
+        width: 340px;
+    }
+
+
+}
+
+@media all and (max-width: 1200px) {
+    .quadroG {
+        width: 330px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    .quadroG {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 1091px) {
+    .btnBanner button {
+        font-size: 14px;
+        padding: 4px 8px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    #txtNossoCliente h1 {
+        width: 220%;
+        font-size: 45px;
+    }
+
+    #planosDestaque {
+        width: 950px;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .quadroG {
+        width: 403px;
+    }
+
+    #planosDestaque {
+        width: 97vw;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #txtNossoCliente {
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    #txtNossoCliente h1 {
+        width: 90vw;
+        font-size: 40px;
+    }
+
+    #txtNossoCliente p {
+        padding: 10px 0 0 0;
+        text-align: left;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #rede { margin-top: 6%; }
+    #fibra {margin-top: 12%; }
+    #confira { margin-top: 18.5%; }
+    .btnBanner { margin-top: 23%; }
+}
+
+@media all and (max-width: 750px) {
+    #nossoCliente {
+        width: 97vw;
+    }
+}
+
+@media all and (max-width: 700px) {
+    #txtNossoCliente {
+        width: 90%;
+        margin-right: 5%;
+    }
+
+    #txtNossoCliente h1 {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    #imgNossoCliente {
+        display: none;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .carousel-inner #banner1 {
+        height: 300px;
+        background-color: #85c6ad;
+    }
+
+    .carousel-inner #banner1 #imgBanner1 {
+        display: none;
+    }
+
+    .txtBanner {
+        right: 0;
+    }
+
+    /** Banner 1 **/
+    #bandaLarga {
+        width: 80%;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    #oferta {
+        width: 39%;
+        margin-left: 10%;
+        margin-top: 28%;
+    }
+
+    #mega25 {
+        width: 38%;
+        margin-left: 51%;
+        margin-top: 28%;
+    }
+
+    /** Banner 2 **/
+    #rede {
+        width: 80%;
+        margin: auto;
+        margin-top: 8%;
+    }
+
+    #fibra {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 21%;
+    }
+
+    #confira {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 36%;
+    }
+
+    #txtNossoCliente h1 {
+        font-size: 35px;
+    }
+
+    .quadroG {
+        width: 303px;
+    }
+
+    .quadroPlano h3 {
+        font-size: 25px;
+    }
+
+    h2 {
+        font-size:  35px;
+    }
+
+    /*#planosDestaque {
+        width: 350px;
+    }*/
+
+    hr {
+        margin-top: 18px;
+        margin-bottom: 18px;
+    }
+
+    .btnPlanos {
+        margin-top: 20px;
+        font-size: 25px;
+        width: 70%;
+        height: 70px;
+    }
+
+    .btnBanner {
+        margin-top: 39%;
+        margin-left: 69%;
+    }
+
+    #btnBanner3 {
+        margin-left: 10%;
+        margin-top: 40%;
+    }
+}
+
+@media all and (max-width: 450px) {
+    .carousel-inner #banner1 {
+        height: 250px;
+    }
+
+    #imgNossoCliente {
+        width: 75%;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .quadroG {
+        width: 280px;
+    }
+
+    #planosDestaque {
+        /*width: 300px;*/
+    }
+
+    #planosDestaque .col-lg-4 {
+        padding: 0px;
+    }
+
+    /** Banner 2 **/
+    #rede {
+        width: 80%;
+        margin: auto;
+        margin-top: 6%;
+    }
+
+    #fibra {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 19%;
+    }
+
+    #confira {
+        width: 60%;
+        margin-left: 10%;
+        margin-top: 34%;
+    }
+
+    .btnBanner {
+        margin-top: 44%;
+        margin-left: 10%;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .carousel-inner #banner1 {
+        height: 220px;
+    }
+
+    p {
+          font-size: 18px;
+    }
+
+    .quadroG {
+        width: 250px;
+    }
+
+    #planosDestaque {
+       /* width: 270px;*/
+    }
+}
+
+@media all and (max-width: 300px) {
+    .carousel-inner #banner1 {
+        height: 200px;
+    }
+
+    #txtNossoCliente h1 {
+        font-size: 30px;
+    }
+
+    #txtNossoCliente {
+        font-size: 16px;
+    }
+
+    .quadroG {
+        width: 230px;
+    }
+
+    #planosDestaque {
+        /*width: 250px;*/
+    }
+
+}

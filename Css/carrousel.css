@@ -1,0 +1,13 @@
+.carousel-indicators {
+	left: 50%;
+}
+
+.carousel-indicators li{
+	width: 15px;
+	height: 15px;
+}
+
+.carousel-indicators li.active{
+	width: 17px;
+	height: 17px;
+}
