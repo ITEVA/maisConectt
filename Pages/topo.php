@@ -73,7 +73,7 @@
                         <ul class="nav navbar-nav" id="posmenu">
                             <!--<li><a href="#">Área do cliente</a></li>-->
                             <li><a href="home">INÍCIO</a></li>
-                            <li><a href="aempresa">A EMPRESA</a></li>
+                            <li><a href="aempresa">EMPRESA</a></li>
                             <li><a href="planos">PLANOS</a></li>
                             <li><a href="corporativo">CORPORATIVO</a></li>
                             <li><a href="cobertura">ÁREA DE COBERTURA</a></li>
