@@ -7,8 +7,8 @@
                 <p>Mapa do site</p>
                 <ul>
                     <li><p class="liAzul">Início</p></li>
+                    <li><p class="liAzul">A empresa</p></li>
                     <li><p class="liAzul">Assinatura</p></li>
-                    <li><p class="liAzul">Cobertura</p></li>
                     <li><p class="liAzul">Teste de Velocidade</p></li>
                     <li><p class="liAzul">Contatos</p></li>
                 </ul>

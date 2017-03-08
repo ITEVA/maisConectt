@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
     <head>
         <title>Mais Conectt</title>
         <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
@@ -27,7 +27,6 @@
         <link rel="stylesheet" href="Css/bootstrap.min.css">
         <link rel="stylesheet" href="Css/carrousel.css">
         <link rel="stylesheet" href="Css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-        <link rel="stylesheet" href="Css/slider.css">
         <link rel="stylesheet" href="Css/animate.css">
         <link rel="stylesheet" href="Font/css/font-awesome.min.css">
 

@@ -16,8 +16,10 @@
         <a class="page-scroll" href="#conteudo"><img class="down" src="Images/arrowDown.png" alt=""></a>
     </div>
 </header>
+
 <div id="conteudo"></div>
 <div class="separatriz"></div>
+
 <div class="col-lg-12 acessoRapido">
     <h1 class="title">Acesso rápido</h1>
 
@@ -65,6 +67,24 @@
         </a>
     </div>
 </div>
+
+<div class="col-lg-12 boxCinza">
+    <div class="col-lg-5">
+        <img src="Images/mulherC.png" alt="">
+    </div>
+    
+    <div class="col-lg-7">
+        <h1>Lorem ipsum dolor sit amet,
+            cras ut amet orci</h1>
+
+        <p>Lorem ipsum dolor sit amet, cras ut amet orci eleifend elementum magna,
+            a turpis, sed mollis nullam nunc viverra viverra, et faucibus in
+            tinci&shy;dunt porttitor, eros malesuada velit.Metus metus blandit dignissim
+            imperdiet dis ut, duis nulla diam.  Metus metus blandit dignissim imperdiet
+            dis ut, duis nulla diam. </p>
+    </div>
+</div>
+
 <!-- jQuery -->
 <script src="JS/jquery-1.11.3.min.js"></script>
 
