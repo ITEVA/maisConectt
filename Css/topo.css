@@ -31,266 +31,107 @@ a:hover{
 
 nav.navbar{
     border:none;
-    background-color: #f4f4f4;
+    background-color: transparent;
 }
 
-div#logoMenu {
-    display: block;
-    position: relative;
-    margin: auto;
-    height: 11vh;
-    /*width: 55vw;*/
-    width: 1056px;
-    min-height: 73px;
+.navbar-custom {
+    background-color: #12416D;
+    border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+    color: #fed136;
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+    border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+    background-color: #fed136;
+    border-color: #fed136;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #fed136;
+}
+.navbar-custom .nav li a {
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+    color: #fed136;
+    outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+    border-radius: 0;
+    color: white;
+    background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: white;
+    background-color: #fec503;
 }
 
-div#logoMenu img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    padding: 0px 15px;
+i.fa-user-o{
+    color: #2D9B96;
+    font-size: 20px;
 }
 
-div#logoMenu #areaCliente {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    margin: auto;
+.navbar-custom .nav li:last-child{
+    border: 2px solid #2D9B96;
+    border-radius: 25px;
+    margin-top: 4px;
 }
 
-div#logoMenu #areaCliente button {
-    margin-top: 3.37vh;
-   /* width: 9.9vw;*/
-    width: 190px;
-    border: 1px solid #00a39b;
-    color: #00a39b;
+.navbar-custom .nav li:last-child a {
+    padding: 8px 15px 8px 15px;
 }
 
-div#logoMenu #areaCliente button i {
-    font-size: 16px;
-    padding-right: 10px;
+.navbar-right{
+    margin-top: 7px;
 }
 
-div#logoMenu #areaCliente button:hover {
-    color: #fff;
-    background-color: #00a39b;
-    font-weight: bold;
-}
-
-div#logoMenu #areaCliente button i:hover {
-    color: #fff;
-    font-weight: bold;
-}
-
-div#menu {
-    display: block;
-    position: relative;
-    padding: 0;
-    font-size: 18px;
-    color: #737373;
-}
-
-.navbar-collapse {
-    text-align: center;
-}
-
-#bs-example-navbar-collapse-1 {
-    padding: 0px;
-    border: none;
-}
-
-.navbar-nav{
-    display: block;
-    width: 1070px;
-    position: relative;
-    float: none;
-    margin: 0 auto;
-}
-
-#posmenu li {
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    padding-right: 18px;
-    padding-left: 18px;
-}
-
-
-#posmenu li:hover {
-    background-color: #00a39b;
-}
-
-#posmenu li:hover a{
-    color: #ffffff;
-}
-
-/* Planos */
-
-#planosHome {
-    display: block;
-    position: relative;
-    width: 99vw;
-    /*height: auto;*/
-    height: 75vh;
-    padding: 0px;
-    text-align: center
-}
-
-#txtPlanosHome{
-    text-align: center;
-}
-
-#txtPlanosHome p{
-    text-align: center;
-}
-
-#planosDestaque {
-    margin-top: 30px;
-}
-
-
-/* CORPORATIVO */
-
-#planosCorporativo {
-    display: block;
-    position: relative;
-    width: 55vw;
-    height: auto;
-    margin: auto;
-}
-
-
-/*
-
-#logomenu {
-    margin-left: -16%;
-    position: absolute;
-    margin-top: 1%;
-}
-#bs-example-navbar-collapse-1 {
-    margin-left: 12%;
-}
-#posmenu {
-    padding-top: 4.5%;
-}
-
-@media (max-width: 767px) {
-    #logomenu {
-        margin-left: -16%;
-        position: absolute;
-        margin-top: 20%;
+@media (min-width: 768px) {
+    .navbar-custom {
+        background-color: transparent;
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+        border: none;
+        height: 85px;
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar-custom .navbar-nav > .active > a {
+        border-radius: 3px;
     }
 }
 
-@media all and (max-width: 1820px){
-    #logomenu {
-        margin-left: -12%;
-        position: absolute;
-        margin-top: 7%;
+@media (min-width: 768px) {
+    .navbar-custom.affix {
+        background-color: #12416D;
+        padding: 10px 0;
+        height: 85px;
     }
-}
-*/
-
-.container-fluid>.navbar-header {
-    width: 98vw;
-    margin-left: 0;
-}
-
-.navbar-default .navbar-toggle {
-
-}
-
-.nav-fix{  /* To fix main menu container */
-    z-index: 9999;
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-/********** @MEDIAS **********/
-@media all and (max-width: 1080px) {
-
-    .navbar-nav{
-        width: 1055px;
-    }
-}
-
-@media all and (max-width: 1063px) {
-    #posmenu li {
-        padding-right: 12px;
-        padding-left: 12px;
-    }
-    div#menu {
-        font-size: 16px;
-    }
-
-    .navbar-nav {
-        width: 98%;
-    }
-
-    div#logoMenu {
-        width: 95vw;
-    }
-}
-
-@media all and (max-width: 963px){
-    .navbar-nav {
-        width: 100%;
-    }
-}
-
-@media all and (max-width: 917px) {
-    #posmenu li {
-        padding-right: 10px;
-        padding-left: 10px;
-    }
-    div#menu {
-        font-size: 14px;
-    }
-    .nav>li>a {
-        padding: 10px 12px;
-    }
-}
-
-@media all and (max-width: 780px) {
-    .navbar-nav {
-        width: 100%;
-    }
-
-    #posmenu li {
-        padding-right: 8px;
-        padding-left: 8px;
-    }
-}
-
-@media all and (max-width: 767px) {
-    #posmenu {
-        width: 100%;
-    }
-
-    #bs-example-navbar-collapse-1 {
-        width: 100%;
-        margin: 0;
-    }
-}
-
-@media all and (max-width: 500px) {
-    div#logoMenu #areaCliente button {
-        width: 50px;
-        margin-right: 10px;
-    }
-
-    div#logoMenu #areaCliente button spam {
-        display: none;
-    }
-
-    div#logoMenu #areaCliente button i {
-        padding-right: 0px;
-    }
-
-    div#logoMenu img {
-        width: 51vw;
+    .navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
     }
 }
