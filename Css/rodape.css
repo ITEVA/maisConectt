@@ -123,3 +123,23 @@ div#centro > .col-lg-12 > .col-lg-4 > .redeSociais > a:last-child > i:before{
     padding-top: 12px;
     padding-left: 7px;
 }
+
+@media all and (max-width: 1200px){
+    hr {
+        clear: both;
+    }
+}
+
+@media all and (max-width: 998px){
+    i.redes {
+        margin-right: 25px;
+    }
+}
+
+@media all and (max-width: 830px){
+    i.redes {
+        margin-right: 15px;
+    }
+}
+
+@media all and (max-width:)

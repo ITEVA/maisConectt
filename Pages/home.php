@@ -13,7 +13,7 @@
                                        interdum morbi nec. </div>
             <a href="#services" class="page-scroll btn btn-xl">Leia mais</a>
         </div>
-        <a class="page-scroll" href="#conteudo"><img class="down" src="Images/arrowDown.png" alt=""></a>
+        <a class="page-scroll ancora" href="#conteudo"><img class="down" src="Images/arrowDown.png" alt=""></a>
     </div>
 </header>
 
@@ -23,7 +23,7 @@
 <div class="col-lg-12 acessoRapido">
     <h1 class="title">Acesso rápido</h1>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-6">
         <a href="">
             <div class="conteudoAcesso">
                 <img src="Images/acessoRapido1.jpg" alt="">
@@ -34,7 +34,7 @@
         </a>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-6">
         <a href="">
             <div class="conteudoAcesso">
                 <img class="media" src="Images/acessoRapido2.jpg" alt="">
@@ -45,7 +45,7 @@
         </a>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-6">
         <a href="">
             <div class="conteudoAcesso">
                 <img class="menores" src="Images/acessoRapido3.jpg" alt="">
@@ -56,7 +56,7 @@
         </a>
     </div>
 
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-6">
         <a href="">
             <div class="conteudoAcesso">
                 <img class="menores" src="Images/acessoRapido4.jpg" alt="">
@@ -69,11 +69,11 @@
 </div>
 
 <div class="col-lg-12 boxCinza">
-    <div class="col-lg-5">
+    <div class="col-lg-5 col-sm-5">
         <img src="Images/mulherC.png" alt="">
     </div>
     
-    <div class="col-lg-7">
+    <div class="col-lg-7 col-sm-7">
         <h1>Lorem ipsum dolor sit amet,
             cras ut amet orci</h1>
 

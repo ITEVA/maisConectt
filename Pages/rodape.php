@@ -3,18 +3,19 @@
 <div class="rodape">
     <div class="container" id="centro">
         <div class="col-lg-12">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Mapa do site</p>
                 <ul>
                     <li><p class="liAzul">Início</p></li>
                     <li><p class="liAzul">A empresa</p></li>
                     <li><p class="liAzul">Assinatura</p></li>
                     <li><p class="liAzul">Teste de Velocidade</p></li>
+                    <li><p class="liAzul">2ª via de boleto</p></li>
                     <li><p class="liAzul">Contatos</p></li>
                 </ul>
             </div>
 
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Contatos</p>
                 <div class="contact"><p><img src="Images/rodapeEmail.jpg" alt="">maisconectt@gmail.com</p></div>
                 <div class="contact"><p><img src="Images/rodapePhone.jpg" alt="">(85) 0 0000-0000</p></div>
@@ -26,7 +27,7 @@
                 </div>
             </div>
             
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Onde você pode nos encontrar?</p>
                 
                 <div>
@@ -38,11 +39,11 @@
 
         <hr>
 
-        <div class="col-lg-4">
+        <div class="col-lg-5 col-md-5 col-sm-5">
             <img src="Images/logoRodape.png" alt="">
         </div>
 
-        <div class="col-lg-8">
+        <div class="col-lg-7 col-md-7 col-sm-7">
             <p id="copy">Copyright © <?php echo date('Y')?> Mais conectt - todos direitos reservados.</p>
         </div>
     </div>

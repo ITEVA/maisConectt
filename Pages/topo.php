@@ -69,6 +69,9 @@
                         <a class="page-scroll" href="teste">Teste de velocidade</a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="contatos">2ª via de boleto</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="contatos">Contatos</a>
                     </li>
                     <li>
