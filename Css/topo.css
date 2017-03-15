@@ -28,16 +28,21 @@ a:hover{
     text-decoration: none;
 }
 
+.navbar-custom {
+    background-color: #12416D;
+    border-color: transparent;
+}
+
+.affix {
+    background-color: #12416D;
+    border-color: transparent;
+}
 
 nav.navbar{
     border:none;
     background-color: transparent;
 }
 
-.navbar-custom {
-    background-color: #12416D;
-    border-color: transparent;
-}
 .navbar-custom .navbar-brand {
     color: #fed136;
     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
@@ -46,7 +51,7 @@ nav.navbar{
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-    color: #fec503;
+    color: #2D9B96;
 }
 .navbar-custom .navbar-collapse {
     border-color: rgba(255, 255, 255, 0.02);
@@ -71,7 +76,7 @@ nav.navbar{
 }
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li a:focus {
-    color: #fed136;
+    color: #2D9B96;
     outline: none;
 }
 .navbar-custom .navbar-nav > .active > a {

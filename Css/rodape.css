@@ -142,4 +142,8 @@ div#centro > .col-lg-12 > .col-lg-4 > .redeSociais > a:last-child > i:before{
     }
 }
 
-@media all and (max-width:)
+@media all and (max-width: 800px){
+    div.espaco {
+        height: 0;
+    }
+}
