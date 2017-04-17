@@ -17,6 +17,7 @@
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/slider.js"></script>
         <script type="text/javascript" src="JS/agency.js"></script>
+        <!--<script type="text/javascript" src="JS/topo.js"></script>-->
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
 
 
@@ -42,14 +43,38 @@
 
     <!-- Navigation -->
     <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="navbar-header page-scroll header">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="menu">
+                <li class="primeiro">
+                    <a class="page-scroll" href="home">Início</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="aempresa">A empresa</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="assinatura">Assinatura</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="teste">Teste de velocidade</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="contatos">2ª via de boleto</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="contatos">Contatos</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="areaCliente">Área do cliente <i class="fa fa-user-o"></i></a>
+                </li>
+            </ul>
+        </div>
+
         <div class="container">
+            <a class="navbar-brand page-scroll" href="home"><img src="Images/logoMenu.png" alt=""></a>
+
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span><i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="home"><img src="Images/logoMenu.png" alt=""></a>
-            </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">

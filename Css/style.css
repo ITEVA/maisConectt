@@ -25,30 +25,3 @@ h5,
 h6 {
     font-weight: 700;
 }
-
-.btn-primary {
-    color: white;
-    background-color: #fed136;
-    border-color: #fed136;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 700;
-}
-.btn-primary:hover,
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    color: white;
-    background-color: #fec503;
-    border-color: #f6bf01;
-}
-.btn-primary:active,
-.btn-primary.active,
-.open .dropdown-toggle.btn-primary {
-    background-image: none;
-}
-
-.btn-primary .badge {
-    color: #fed136;
-    background-color: white;
-}

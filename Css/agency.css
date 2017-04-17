@@ -51,7 +51,7 @@ header .intro-text .intro-heading {
 .open .dropdown-toggle.btn-xl {
   color: #2D9B96;
   background-color: #ffffff;
-  border: 3px solid #2D9B96;
+  border: 1px solid #2D9B96;
 }
 
 .btn-xl:active,
@@ -250,6 +250,10 @@ div.boxCinza > .col-lg-7 > p {
   header .intro-text .intro-lead-in {
     padding-right: 520px;
   }
+
+  div.acessoRapido > .col-lg-3 {
+    padding-bottom: 30px;
+  }
 }
 
 @media all and (max-width: 1130px) {
@@ -420,3 +424,8 @@ div.boxCinza > .col-lg-7 > p {
   }
 }
 
+@media all and (max-width: 370px){
+  div.boxCinza > .col-lg-5 > img{
+    width: 100%;
+  }
+}
