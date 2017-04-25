@@ -38,11 +38,26 @@
         <!-- Latest compiled and minified JavaScript -->
         <?php echo (file_exists("Css/{$url[0]}.css")) ? "<link rel=\"stylesheet\" href=\"Css/{$url[0]}.css\">" : ""; ?>
 
+        <script>
+            var url_atual = window.location.href;
+            letra = url_atual.split("/");
+            if(letra[4] == 'aempresa'){
+                $("head").append("<style>.azul{background-color: #103A62;" +
+                                              "height: 120px;" +
+                                              "border-color: transparent;" +
+                                              "margin-bottom: 0;" +
+                                              "-webkit-transition: all 0.3s;" +
+                                              "-moz-transition: all 0.3s;" +
+                                              "transition: all 0.3s;}" +
+                                "</style>");
+            }
+        </script>
+
     </head>
     <body id="page-top" class="index">
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix-top azul">
         <div class="navbar-header page-scroll header">
             <input class="menu-btn" type="checkbox" id="menu-btn" />
             <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
@@ -54,25 +69,25 @@
                     <a class="page-scroll" href="aempresa">A empresa</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="assinatura">Assinatura</a>
+                    <a class="page-scroll" href="assinatura">Planos</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="teste">Teste de velocidade</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="contatos">2ª via de boleto</a>
+                    <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="contatos">Contatos</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="areaCliente">Área do cliente <i class="fa fa-user-o"></i></a>
+                    <a class="page-scroll" href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank">Área do cliente <i class="fa fa-user-o"></i></a>
                 </li>
             </ul>
         </div>
 
         <div class="container">
-            <a class="navbar-brand page-scroll" href="home"><img src="Images/logoMenu.png" alt=""></a>
+            <a class="navbar-brand page-scroll" href="home"><img src="Images/logomenu.png" alt=""></a>
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -88,22 +103,22 @@
                         <a class="page-scroll" href="aempresa">A empresa</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="assinatura">Assinatura</a>
+                        <a class="page-scroll" href="assinatura">Planos</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="teste">Teste de velocidade</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contatos">2ª via de boleto</a>
+                        <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="contatos">Contatos</a>
                     </li>
                     <li title="Área do cliente" class="response">
-                        <a class="page-scroll" href="areaCliente"><i class="fa fa-user-o"></i></a>
+                        <a class="page-scroll" href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank"><i class="fa fa-user-o"></i></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="areaCliente">Área do cliente <i class="fa fa-user-o"></i></a>
+                        <a class="page-scroll" href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank">Área do cliente <i class="fa fa-user-o"></i></a>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,39 @@
+div.conteudo{
+    background-image: url("../Images/aempresa2.JPG");
+    background-repeat: no-repeat;
+}
+
+h1#titulo{
+    color: #28a4a9;
+    padding-bottom: 40px;
+    font-size: 58px;
+}
+
+div.conteudo > .box > p{
+    font-family: "Lucida Sans Unicode";
+    text-align: justify;
+    font-size: 19px;
+    line-height: 1.2;
+    margin-bottom: 25px;
+    padding-right: 83px;
+}
+
+div.conteudo > .box > p#ultimo{
+    margin-bottom: 55px;
+}
+
+div.conteudo > .box{
+    margin-left: 10%;
+    margin-top: 215px;
+    padding-bottom: 15%;
+}
+
+div.conteudo > .box > a#botao{
+    padding: 20px 30px 20px 30px;
+    background-color: #28a4a9;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 10px;
+    font-size: 23px;
+}

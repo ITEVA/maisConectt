@@ -18,7 +18,8 @@
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Contatos</p>
                 <div class="contact"><p><img src="Images/rodapeEmail.jpg" alt="">maisconectt@gmail.com</p></div>
-                <div class="contact"><p><img src="Images/rodapePhone.jpg" alt="">(85) 0 0000-0000</p></div>
+                <div class="contact"><p><img src="Images/rodapePhone.jpg" alt="">(85) 9 8799-0759</p></div>
+                <div class="contact"><p><img src="Images/rodapePhoneF.png" alt="">(85) 3025-2981</p></div>
 
                 <div class="redeSociais">
                     <a href=""><i class="fa fa-facebook redes"></i></a>
@@ -31,8 +32,9 @@
                 <p>Onde você pode nos encontrar?</p>
                 
                 <div>
-                    <p class="fontDif">Rua Só Jesus, 000 - Bairro Ave Maria</p>
-                    <p class="fontDif">Cidade onde é localizada</p>
+                    <p class="fontDif">Rua Jorge Acúrcio, 1095, Loja 8 - Vila União</p>
+                    <p class="fontDif">Fortaleza - Ceará </p>
+                    <p class="fontDif">Seg a Sex de 8h às 20h | Sáb de 8h às 16h  </p>
                 </div>
             </div>
         </div>
@@ -44,6 +46,9 @@
         </div>
 
         <div class="col-lg-7 col-md-7 col-sm-7">
+            <?php
+                date_default_timezone_set('America/Fortaleza');
+            ?>
             <p id="copy">Copyright © <?php echo date('Y')?> Mais conectt - todos direitos reservados.</p>
         </div>
     </div>
