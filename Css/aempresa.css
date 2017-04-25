@@ -1,6 +1,7 @@
 div.conteudo{
     background-image: url("../Images/aempresa2.JPG");
     background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 h1#titulo{
@@ -25,7 +26,7 @@ div.conteudo > .box > p#ultimo{
 div.conteudo > .box{
     margin-left: 10%;
     margin-top: 215px;
-    padding-bottom: 15%;
+    padding-bottom: 10%;
 }
 
 div.conteudo > .box > a#botao{
@@ -36,4 +37,105 @@ div.conteudo > .box > a#botao{
     font-weight: 700;
     border-radius: 10px;
     font-size: 23px;
+}
+
+@media all and (max-width: 1758px){
+    div.conteudo > .box {
+        padding-bottom: 7%;
+    }
+}
+
+@media all and (max-width: 1700px){
+    div.conteudo > .box {
+        margin-left: 5%;
+    }
+
+    div.conteudo > .box > p {
+        padding-right: 40px;
+    }
+
+    div.conteudo > .box {
+        padding-bottom: 6%;
+    }
+}
+
+@media all and (max-width: 1680px){
+    div.conteudo > .box {
+        padding-bottom: 4%;
+    }
+}
+
+@media all and (max-width: 1619px){
+    div.conteudo > .box {
+        margin-top: 155px;
+    }
+}
+
+@media all and (max-width: 1570px){
+    h1#titulo {
+        padding-bottom: 20px;
+        font-size: 50px;
+    }
+
+    div.conteudo > .box > p {
+        margin-bottom: 14px;
+        font-size: 18px;
+        padding-right:0;
+    }
+}
+
+@media all and (max-width: 1420px){
+    div.conteudo > .box > p {
+        font-size: 17px;
+    }
+
+    div.conteudo > .box > a#botao {
+        font-size: 18px;
+    }
+
+    h1#titulo {
+        padding-bottom: 10px;
+        font-size: 48px;
+        margin-top: 10px;
+    }
+}
+
+@media all and (max-width: 1330px){
+    div.conteudo{
+        background-color: #ffffff;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    div.conteudo{
+        background-image: none;
+    }
+
+    div.conteudo > .box {
+        margin-left: 23px;
+        margin-right: 23px;
+    }
+}
+
+@media all and (max-width: 767px){
+     div.conteudo > .box {
+        margin-top: 100px;
+         margin-bottom: 20px;
+    }
+
+    div.conteudo > .box {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    h1#titulo {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 360px){
+    div.conteudo > .box > a#botao{
+        font-size: 16px;
+        text-align: center;
+    }
 }

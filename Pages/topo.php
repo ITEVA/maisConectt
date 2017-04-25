@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Mais Conectt</title>
-        <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="../Images/favicon.ico">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
@@ -50,6 +50,10 @@
                                               "-moz-transition: all 0.3s;" +
                                               "transition: all 0.3s;}" +
                                 "</style>");
+
+                if($(window).width() <= 767){
+                    $("head").append("<style>.azul{height: 70px;</style>");
+                }
             }
         </script>
 
