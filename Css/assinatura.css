@@ -1,0 +1,144 @@
+div.conteudo{
+    background-color: #ffffff;
+}
+
+header#assinatura {
+    background-image: url('../Images/banner02.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: 100%;
+    -o-background-size: 100%;
+    text-align: center;
+    color: white;
+}
+
+h1#titulo{
+    color: #28a4a9;
+    padding-bottom: 40px;
+    font-size: 58px;
+}
+
+div.conteudo > .box{
+    margin-left: 10%;
+    padding-bottom: 10%;
+}
+
+div.plano{
+    background-color: #F7F7F7;
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+div.banda{
+    padding: 0;
+}
+
+div.banda > img{
+    width: 250px;
+}
+
+div.preco{
+    text-align: center;
+    padding-left: 0;
+    padding-top: 70px;
+}
+
+div.preco > p{
+    color: #5c5c5c;
+    font-size: 55px;
+}
+
+div.preco > p.ppDestaque{
+    color: #29a6a9;
+    font-weight: 700;
+}
+
+div.preco > p > sup{
+    font-size: 30px;
+}
+
+div.taxa{
+    padding-top: 70px;
+}
+
+div.taxa > p{
+    color: #3f3f3f;
+}
+
+div.taxa > p.pDestaque{
+    color: #000000;
+    font-weight: 700;
+}
+
+div.taxa > p:first-child{
+    font-size: 30px;
+}
+
+div.taxa > p:last-child{
+    font-size: 30px;
+    line-height: 0px;
+}
+
+div.assinar{
+    padding-right: 0;
+    padding-top: 70px;
+}
+
+div.assinar > p{
+    float: right;
+}
+
+div.destaque{
+    background-color: #E3E3E3;
+}
+
+.btn-xl {
+    color: white;
+    background-color: #2D9B96;
+    border-color: #2D9B96;
+    font-family: "Lucida Sans Unicode", serif;
+    border-radius: 35px;
+    font-size: 25px;
+    padding: 15px 45px 15px 45px;
+    margin-left: 66.5%;
+    margin-top: 3%;
+    -webkit-animation-delay: 1s; /* Safari 4.0 - 8.0 */
+    animation-delay: 1s;
+}
+
+a.aDestaque{
+    -webkit-box-shadow: 0px 0px 40px 0px rgba(26,26,26,0.6);
+    -moz-box-shadow: 0px 0px 40px 0px rgba(26,26,26,0.6);
+    box-shadow: 0px 0px 40px 0px rgba(26,26,26,0.6);
+}
+
+/* Texto do Banner */
+/********** BANNER 1 **********/
+#bandaLarga {
+    width: 53.4166%;
+    margin-left: 65%;
+    margin-top: 15%;
+}
+#bandaLarga img { width: 100%; }
+
+#oferta {
+    width: 16%;
+    margin-left: 66%;
+    margin-top: 2%;
+}
+
+#mega20{
+    width: 40%;
+    margin-left: 81%;
+    margin-top: -10%;
+
+}
+
+#oferta img { width: 100%; }
+
+#mega25 { width: 17%; margin-left: 68%; }
+
+#mega25 img { width: 100%; }

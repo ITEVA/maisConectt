@@ -2,7 +2,7 @@
 <link rel="stylesheet" href="Css/topo.css">-->
 
 <!-- Header -->
-<header>
+<header id="home">
     <div class="container">
         <div class="intro-text">
             <div class="intro-lead-in">Lorem ipsum dolor sit amet</div>
@@ -87,12 +87,6 @@
     </div>
 </div>
 
-<!-- jQuery -->
-<script src="JS/jquery-1.11.3.min.js"></script>
-
-<script src="JS/bootstrap.js"></script>
-
-<script src="JS/agency.js"></script>
 
 
 

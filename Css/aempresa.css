@@ -10,6 +10,10 @@ h1#titulo{
     font-size: 58px;
 }
 
+div.conteudo > div.box{
+    margin-top: 150px;
+}
+
 div.conteudo > .box > p{
     font-family: "Lucida Sans Unicode";
     text-align: justify;
@@ -21,12 +25,6 @@ div.conteudo > .box > p{
 
 div.conteudo > .box > p#ultimo{
     margin-bottom: 55px;
-}
-
-div.conteudo > .box{
-    margin-left: 10%;
-    margin-top: 215px;
-    padding-bottom: 10%;
 }
 
 div.conteudo > .box > a#botao{

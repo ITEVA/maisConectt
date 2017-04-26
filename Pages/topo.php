@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Mais Conectt</title>
-        <link rel="shortcut icon" type="image/x-icon" href="../Images/favicon.ico">
+        <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="description" content="">
@@ -34,6 +34,7 @@
         <link rel="stylesheet" href="Css/topo.css">
         <link rel="stylesheet" href="Css/style.css">
         <link rel="stylesheet" href="Css/home.css">
+        <link rel="stylesheet" href="Css/assinatura.css">
         <link rel="stylesheet" href="Css/agency.css">
         <!-- Latest compiled and minified JavaScript -->
         <?php echo (file_exists("Css/{$url[0]}.css")) ? "<link rel=\"stylesheet\" href=\"Css/{$url[0]}.css\">" : ""; ?>
@@ -73,7 +74,7 @@
                     <a class="page-scroll" href="aempresa">A empresa</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="assinatura">Planos</a>
+                    <a class="page-scroll" href="assinatura">Assinatura</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="teste">Teste de velocidade</a>
@@ -107,7 +108,7 @@
                         <a class="page-scroll" href="aempresa">A empresa</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="assinatura">Planos</a>
+                        <a class="page-scroll" href="assinatura">Assinatura</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="teste">Teste de velocidade</a>

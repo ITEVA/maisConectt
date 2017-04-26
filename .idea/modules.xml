@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/maisConectt.iml" filepath="$PROJECT_DIR$/.idea/maisConectt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../linkCe/.idea/siteConnect.iml" filepath="$PROJECT_DIR$/../linkCe/.idea/siteConnect.iml" />
       <module fileurl="file://$PROJECT_DIR$/../siteIteva/.idea/siteIteva.iml" filepath="$PROJECT_DIR$/../siteIteva/.idea/siteIteva.iml" />
     </modules>
   </component>
