@@ -9,8 +9,6 @@ header#assinatura {
     background-position: center 0;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    background-size: 100%;
-    -o-background-size: 100%;
     text-align: center;
     color: white;
 }
@@ -19,6 +17,10 @@ h1#titulo{
     color: #28a4a9;
     padding-bottom: 40px;
     font-size: 58px;
+}
+
+div.taxa > i.fa{
+    display: none;
 }
 
 div.conteudo > .box{
@@ -73,7 +75,7 @@ div.taxa > p.pDestaque{
     font-weight: 700;
 }
 
-div.taxa > p:first-child{
+div.taxa > p:nth-child(2){
     font-size: 30px;
 }
 
@@ -101,7 +103,11 @@ div.destaque{
     border-color: #2D9B96;
     font-family: "Lucida Sans Unicode", serif;
     border-radius: 35px;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 16px 105px 16px 105px;
+}
+
+a.banner{
     padding: 15px 45px 15px 45px;
     margin-left: 66.5%;
     margin-top: 3%;
@@ -131,14 +137,680 @@ a.aDestaque{
 }
 
 #mega20{
-    width: 40%;
-    margin-left: 81%;
+    width: 32%;
+    margin-left: 86%;
     margin-top: -10%;
-
 }
 
 #oferta img { width: 100%; }
 
 #mega25 { width: 17%; margin-left: 68%; }
 
-#mega25 img { width: 100%; }
+#mega20 img { width: 100%; }
+
+@media all and (max-width: 1630px){
+    #bandaLarga {
+        margin-left: 60%;
+    }
+
+    #oferta {
+        margin-left: 62%;
+    }
+
+    #mega20 {
+        margin-left: 81%;
+    }
+
+    a.banner{
+        margin-left: 62.5%;
+    }
+
+    div.banda > img {
+        width: 230px;
+    }
+
+    div.banda{
+        margin-right: 25px;
+    }
+
+    div.preco {
+        margin-right: 30px;
+    }
+
+    div.taxa {
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 1500px){
+    #bandaLarga {
+        margin-left: 50%;
+        margin-top: 10%;
+    }
+
+    #oferta {
+        margin-left: 52%;
+    }
+
+    #mega20 {
+        margin-left: 71%;
+    }
+
+    a.banner{
+        margin-left: 52.5%;
+    }
+
+    div.taxa > p:first-child {
+        font-size: 28px;
+    }
+
+    div.taxa > p:last-child {
+        font-size: 28px;
+    }
+
+}
+
+@media all and (max-width: 1460px){
+    div.preco {
+        margin-right: 20px;
+    }
+
+    .btn-xl {
+        padding: 16px 90px 16px 90px;
+    }
+}
+
+@media all and (max-width: 1445px){
+    div.taxa > p:last-child {
+        font-size: 26px;
+    }
+
+    div.taxa > p:first-child {
+        font-size: 26px;
+    }
+}
+
+@media all and (max-width: 1420px){
+    div.banda > img {
+        width: 215px;
+    }
+
+    div.preco {
+        padding-top: 58px;
+        margin-right: 10px;
+    }
+}
+
+@media all and (max-width: 1360px){
+    #bandaLarga {
+        margin-left: 45%;
+        margin-top: 4%;
+    }
+
+    #oferta {
+        margin-left: 47%;
+    }
+
+    #mega20 {
+        margin-left: 66%;
+    }
+
+    a.banner{
+        margin-left: 47.5%;
+    }
+
+    div.preco > p {
+        font-size: 50px;
+    }
+
+    div.banda > img {
+        width: 200px;
+    }
+
+    div.taxa > p:last-child {
+        font-size: 24px;
+    }
+
+    div.taxa > p:nth-child(2){
+        font-size: 24px;
+    }
+
+    .btn-xl {
+        font-size: 27px;
+        padding: 16px 65px 16px 65px;
+    }
+
+    div.assinar {
+        padding-top: 60px;
+    }
+}
+
+@media all and (max-width: 1260px){
+    #bandaLarga {
+        margin-left: 45%;
+        margin-top: -4%;
+    }
+
+    div.conteudo > .box {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    div.conteudo {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+}
+
+@media all and (max-width: 1200px){
+    div.conteudo > .box {
+        margin-left: 5%;
+    }
+
+    div.plano {
+        height: 184px;
+    }
+
+}
+
+@media all and (max-width: 1160px){
+    #bandaLarga {
+        width: 48%;
+        margin-left: 45%;
+        margin-top: -4%;
+    }
+
+    #oferta {
+        width: 12%;
+    }
+
+    #mega20 {
+        width: 29%;
+        margin-top: -8%;
+        margin-left: 62%;
+    }
+
+    a.banner{
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 1060px){
+    #bandaLarga {
+        width: 48%;
+        margin-left: 45%;
+        margin-top: -4%;
+    }
+
+    #oferta {
+        width: 12%;
+    }
+
+    #mega20 {
+        width: 30%;
+        margin-top: -8%;
+    }
+
+    a.banner{
+        font-size: 20px;
+    }
+
+    div.plano {
+        height: 170px;
+    }
+
+    div.banda > img {
+        width: 185px;
+    }
+
+    div.preco > p {
+        font-size: 45px;
+    }
+
+    div.preco {
+        padding-top: 50px;
+    }
+
+    div.taxa {
+        padding-top: 50px;
+    }
+
+    div.taxa > p:last-child {
+        font-size: 23px;
+    }
+
+    div.taxa > p:nth-child(2){
+        font-size: 23px;
+    }
+
+    .btn-xl {
+        font-size: 25px;
+        padding: 16px 55px 16px 55px;
+    }
+
+    div.assinar {
+        padding-top: 50px;
+    }
+
+    div.conteudo > .box {
+        margin-left: 3%;
+    }
+
+}
+
+@media all and (max-width: 975px){
+    div.banda > img {
+        width: 164px;
+    }
+
+    div.preco > p {
+        font-size: 40px;
+    }
+
+    div.preco > p > sup {
+        font-size: 24px;
+    }
+    div.plano {
+        height: 150px;
+    }
+
+    div.preco {
+        padding-top: 40px;
+    }
+
+    div.taxa > p:nth-child(2){
+        font-size: 21px;
+    }
+
+    div.taxa > p:last-child {
+        font-size: 21px;
+    }
+
+    div.taxa {
+        padding-top: 40px;
+    }
+
+    div.assinar {
+        padding-top: 41px;
+    }
+
+    .btn-xl {
+        font-size: 22px;
+        padding: 16px 45px 16px 45px;
+    }
+
+    div.banda {
+        margin-right: 60px;
+    }
+
+    div.preco {
+        margin-right: 40px;
+    }
+
+    div.taxa {
+        margin-right: 55px;
+    }
+
+}
+
+@media all and (max-width: 930px){
+    div.taxa > p:last-child {
+        font-size: 18px;
+    }
+
+    div.taxa > p:nth-child(2){
+        font-size: 18px;
+    }
+
+    div.banda > img {
+        width: 150px;
+    }
+
+    div.plano {
+        height: 138px;
+    }
+
+    div.preco > p {
+        font-size: 36px;
+    }
+
+    .btn-xl {
+        font-size: 19px;
+        padding: 10px 40px 10px 40px;
+    }
+
+}
+
+@media all and (max-width: 840px){
+    #bandaLarga {
+        width: 52%;
+    }
+}
+
+@media all and (max-width: 815px){
+    div.banda > img {
+        width: 135px;
+    }
+
+    div.plano {
+        height: 125px;
+    }
+
+    div.preco > p {
+        font-size: 33px;
+    }
+
+    div.preco > p > sup {
+        font-size: 18px;
+    }
+
+    div.preco {
+        padding-top: 35px;
+    }
+
+    div.taxa > p:last-child {
+        font-size: 17px;
+    }
+
+    div.taxa > p:nth-child(2){
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width: 767px){
+    a.banner {
+        font-size: 17px;
+    }
+
+    div.banda {
+        margin-right: 45px;
+    }
+
+    div.preco {
+        margin-right: 30px;
+    }
+
+    div.taxa {
+        margin-right: 70px;
+    }
+
+    div.taxa > p:nth-child(2){
+        width: 200px;
+    }
+
+    div.taxa > p:last-child {
+        width: 200px;
+    }
+
+    h1#titulo {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 620px){
+    div.taxa > p{
+        display: none;
+    }
+
+    div.taxa > i.fa{
+        display: inline-flex;
+        color: #3f3f3f;
+        font-size: 30px;
+    }
+
+    div.taxa > i.fa > p{
+        font-size: 18px;
+        margin: 2px 0 10px;
+    }
+
+    div.taxa {
+        padding-top: 20px;
+        margin-right: 65px;
+    }
+
+    div.preco > p {
+        font-size: 28px;
+    }
+
+    div.banda > img {
+        width: 120px;
+    }
+
+    div.plano {
+        height: 110px;
+    }
+
+    div.preco {
+        padding-top: 30px;
+    }
+
+    div.assinar {
+        padding-top: 32px;
+    }
+
+    .btn-xl {
+        font-size: 17px;
+        padding: 10px 30px 10px 30px;
+    }
+}
+
+@media all and (max-width: 600px){
+    div.banda > img {
+        width: 100px;
+    }
+
+    div.banda {
+        margin-right: 35px;
+    }
+
+    div.preco > p {
+        font-size: 25px;
+    }
+
+    div.plano {
+        height: 93px;
+        margin-bottom: 13px;
+    }
+
+    div.preco > p > sup {
+        font-size: 14px;
+    }
+
+    div.preco {
+        padding-top: 28px;
+    }
+
+    div.taxa {
+        padding-top: 10px;
+    }
+
+    div.assinar {
+        padding-top: 25px;
+    }
+}
+
+@media all and (max-width: 560px) {
+    div.banda > img {
+        width: 90px;
+    }
+
+    div.banda {
+        margin-right: 29px;
+    }
+
+    div.plano {
+        height: 83px;
+    }
+
+    div.preco {
+        margin-right: 14px;
+        padding-top: 23px;
+    }
+
+    div.preco > p {
+        font-size: 22px;
+    }
+
+    div.taxa {
+        margin-right: 50px;
+    }
+
+    div.taxa > i.fa > p {
+        font-size: 16px;
+    }
+
+    div.taxa > i.fa > p {
+        font-size: 16px;
+        margin: 2px 0 5px;
+    }
+
+    div.assinar {
+        padding-top: 20px;
+    }
+
+    div.taxa > i.fa {
+        font-size: 25px;
+    }
+
+    h1#titulo {
+        font-size: 45px;
+    }
+}
+
+@media all and (max-width: 490px){
+    #bandaLarga {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #oferta {
+        width: 30%;
+        margin-left: 0;
+    }
+
+    #mega20 {
+        width: 60%;
+        margin-left: 39%;
+        margin-top: -17%;
+    }
+
+    a.banner{
+        font-size: 20px;
+        margin-left: 0;
+    }
+
+    .btn-xl {
+        font-size: 15px;
+        padding: 10px 25px 10px 25px;
+    }
+}
+
+@media all and (max-width: 450px){
+    div.banda > img {
+        width: 85px;
+    }
+
+    div.plano {
+        height: 78px;
+    }
+
+    div.preco > p {
+        font-size: 20px;
+    }
+
+    div.taxa > i.fa {
+        font-size: 22px;
+    }
+
+    div.taxa > i.fa > p {
+        font-size: 14px;
+    }
+
+    div.taxa {
+        padding-top: 13px;
+    }
+
+    .btn-xl {
+        font-size: 14px;
+        padding: 10px 20px 10px 20px;
+    }
+}
+
+@media all and (max-width: 410px){
+    div.taxa {
+        margin-right: 40px;
+    }
+}
+
+@media all and (max-width: 380px){
+    div.preco > p {
+        font-size: 18px;
+    }
+
+    div.preco > p > sup {
+        font-size: 11px;
+    }
+
+    div.banda {
+        margin-right: 35px;
+    }
+
+    div.preco {
+        margin-right: 6px;
+    }
+
+    .btn-xl {
+        padding: 10px 15px 10px 15px;
+    }
+
+    div.conteudo > .box {
+        margin-left: 2%;
+    }
+
+    div.plano {
+        height: 73px;
+    }
+}
+
+@media all and (max-width: 353px){
+    div.banda > img {
+        width: 80px;
+    }
+
+    div.banda {
+        margin-right: 30px;
+    }
+}
+
+@media all and (max-width: 334px){
+    div.banda > img {
+        width: 75px;
+    }
+
+    div.banda {
+        margin-right: 28px;
+    }
+
+    div.preco > p {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 325px){
+    div.taxa > i.fa > p {
+        font-size: 12px;
+    }
+
+    div.taxa > i.fa {
+        font-size: 20px;
+    }
+
+    div.preco > p {
+        font-size: 15px;
+    }
+
+    div.preco {
+        margin-right: 0;
+    }
+}
