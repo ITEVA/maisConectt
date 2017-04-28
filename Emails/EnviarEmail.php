@@ -1,9 +1,10 @@
 <?php
             
     function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $replyNome = NULL, $anexo = NULL, $logo){
-            
+
         $mail = new PHPMailer(); //INICIA A CLASSE
         $mail->IsSMTP(); //Habilita envio SMPT
+        //$mail->SMTPDebug  = 1;
         $mail->SMTPAuth = true; //Ativa email autenticado
         $mail->IsHTML(true);
         $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
@@ -12,15 +13,15 @@
         $mail->SMTPSecure = "ssl";
 
         $mail->Host = 'smtp.gmail.com'; //Servidor de envio
-        $mail->Port = 587 ; //Porta de envio
-        $mail->Username = 'm.giselly.r.a@gmail.com'; //email para smtp autenticado
-        $mail->Password = 'Pokemon01@'; //seleciona a porta de envio
+        $mail->Port = 465 ; //Porta de envio
+        $mail->Username = 'regisousa7@gmail.com'; //email para smtp autenticado
+        $mail->Password = 'corinthians7'; //
 
-        $mail->From = 'm.giselly.r.a@gmail.com'; //remetente
-        $mail->FromName = 'LinkCE'; //nome remetente
+        $mail->From = 'regisousa7@gmail.com'; //remetente
+        $mail->FromName = 'MaisConectt'; //nome remetente
 
         /* Enviar imagem */
-        $mail->AddEmbeddedImage($logo, 'linkce');
+        $mail->AddEmbeddedImage($logo, 'maisconectt');
         
         if($reply != NULL){
             $mail->AddReplyTo($reply,$replyNome);
@@ -34,13 +35,12 @@
         $mail->Body = $mensagem; //mensagem
         $mail->AddAddress($destino,$nomeDestino); //email e nome do destino
 
-        if($mail->Send()){
-            return true;
-        }else {
-            exit();
-            return false;
+        $enviado = $mail->Send();
+
+        if (!$enviado) {
+            return 0;
+        } else {
+            return 1;
         }
     }
-    var_dump($mensagem);
-include_once('emailContratoCliente.php');
 ?> 

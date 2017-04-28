@@ -13,10 +13,14 @@
         <script src="JS/jquery-1.11.3.min.js"></script>
         <?php if(file_exists("JS/{$url[0]}.js")) echo "<script src='JS/{$url[0]}.js'></script>"; ?>
         <script src="JS/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="JS/SmoothScroll.js"></script>
+        <script type="text/javascript" src="JS/elementScroll.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
-        <script type="text/javascript" src="JS/slider.js"></script>
         <script type="text/javascript" src="JS/agency.js"></script>
+        <script type="text/javascript" src="JS/toastr.min.js"></script>
+        <script type="text/javascript" src="JS/contato.js"></script>
         <!--<script type="text/javascript" src="JS/topo.js"></script>-->
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
 
@@ -36,13 +40,14 @@
         <link rel="stylesheet" href="Css/home.css">
         <link rel="stylesheet" href="Css/assinatura.css">
         <link rel="stylesheet" href="Css/agency.css">
+        <link rel="stylesheet" href="Css/toastr.min.css">
         <!-- Latest compiled and minified JavaScript -->
         <?php echo (file_exists("Css/{$url[0]}.css")) ? "<link rel=\"stylesheet\" href=\"Css/{$url[0]}.css\">" : ""; ?>
 
         <script>
             var url_atual = window.location.href;
             letra = url_atual.split("/");
-            if(letra[4] == 'aempresa'){
+            if(letra[4] == 'aempresa' || letra[4] == 'contato'){
                 $("head").append("<style>.azul{background-color: #103A62;" +
                                               "height: 120px;" +
                                               "border-color: transparent;" +
@@ -83,7 +88,7 @@
                     <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="contatos">Contatos</a>
+                    <a class="page-scroll" href="contato">Contatos</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank">Área do cliente <i class="fa fa-user-o"></i></a>
@@ -117,7 +122,7 @@
                         <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="contatos">Contatos</a>
+                        <a class="page-scroll" href="contato">Contatos</a>
                     </li>
                     <li title="Área do cliente" class="response">
                         <a class="page-scroll" href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank"><i class="fa fa-user-o"></i></a>

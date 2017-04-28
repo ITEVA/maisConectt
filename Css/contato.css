@@ -1,0 +1,143 @@
+div.boxMaior{
+    margin-top: 200px;
+    background-color: #103A61;
+    color: #ffffff;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+div.boxMaior > div.container > div.texto > h1{
+    font-weight: normal;
+    font-size: 55px;
+}
+
+div.boxMaior > div.container > div.texto > p{
+    font-family: "Lucida Sans Unicode";
+    font-size: 22px;
+    margin-bottom: 35px;
+    line-height: 1.4;
+    padding-right: 25px;
+}
+
+p.emLinha{
+    display: inline;
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+div.boxMaior > div.container > div.texto > div.blocos{
+    margin-bottom: 35px;
+}
+
+div.boxMaior > div.container > div.texto > div.blocos > p {
+    margin-bottom: 0;
+}
+
+div.boxMaior > div.container > div.texto > div.blocos > img{
+    margin-bottom: 15px;
+}
+
+div.formulario{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+div.formulario > #formContato > .container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+div.boxMaior > .container{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+   /*border-top: 3px solid #ffffff;*/
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 8px;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.form-control:focus{
+    border-top: 3px solid #ffffff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-control:focus::-webkit-input-placeholder {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.form-control::-moz-placeholder {
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.form-control:-moz-placeholder {
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #206cb2;
+    font-size: 18px;
+}
+
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.form-control:-ms-input-placeholder {
+    color: #206cb2;
+    font-size: 18px;
+}
+
+.campo{
+    background-color: #0D2D4B;
+    padding-left: 30px;
+    resize: none;
+}
+
+textarea.form-control{
+    padding-top: 15px;
+}
+
+input#botao{
+    float: right;
+    padding: 15px 64px 15px 65px;
+    background-color: #278F82;
+    color: #ffffff;
+    border-radius: 35px;
+    font-size: 20px;
+    border: 0;
+}
+
+iframe.iframeMapa{
+    width: 100%;
+    height: 725px;
+
+}
+
+div.mapa{
+    padding: 50px 0 0 0;
+}
