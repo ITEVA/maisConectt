@@ -141,3 +141,7 @@ iframe.iframeMapa{
 div.mapa{
     padding: 50px 0 0 0;
 }
+
+.mapa iframe{
+    pointer-events: none;
+}
