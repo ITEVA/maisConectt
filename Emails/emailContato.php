@@ -1,7 +1,6 @@
 <?php
 
-/* Inclui página de enviar email */
-require("EnviarEmail.php");
+
 
 /**
 * Inclui classes de envio de email
@@ -9,6 +8,9 @@ require("EnviarEmail.php");
 require_once('../Classes/mail/PHPMailerAutoload.php');
 require_once('../Classes/mail/class.phpmailer.php');
 require_once('../Classes/mail/class.smtp.php');
+
+/* Inclui página de enviar email */
+require("EnviarEmail.php");
 
 $mensagem ="<body>
                 <div style='display: block; position:absolute; background-color: #f8f8f8; width: 500px;  min-height: 600px; height: auto; border: 5px solid #1b6d85; border-bottom: 25px solid #1b6d85; border-top: 25px solid #1b6d85;background-color: #fff; padding: 20px;'>
@@ -34,10 +36,10 @@ $mensagem ="<body>
             </body>"; 
 
 $result = sendMail('Fale Conosco - Site MaisConectt',$mensagem,'regisousa7@gmail.com','MaisConectt', NULL, NULL, NULL, '../Images/logoEmail.png');
+
 if($result == 1) {
-    echo '1';
-}
-else {
-    echo '0';
+    echo 1;
+} else {
+    echo 0;
 }
 ?>

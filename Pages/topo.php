@@ -14,21 +14,16 @@
         <?php if(file_exists("JS/{$url[0]}.js")) echo "<script src='JS/{$url[0]}.js'></script>"; ?>
         <script src="JS/bootstrap.min.js"></script>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
-        <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/agency.js"></script>
-        <script type="text/javascript" src="JS/toastr.min.js"></script>
-        <script type="text/javascript" src="JS/contato.js"></script>
         <script type="text/javascript" src="JS/mapa.js"></script>
         <!--<script type="text/javascript" src="JS/topo.js"></script>-->
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="JS/SmoothScroll.js"></script>
         <script type="text/javascript" src="JS/elementScroll.js"></script>
-        <script src="JS/bootstrap.min.js"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="JS/toastr.min.js"></script>
-        <script type="text/javascript" src="JS/contato.js"></script>
+        <!--<script type="text/javascript" src="JS/contato.js"></script>-->
 
 
         <!-- Latest compiled and minified CSS -->

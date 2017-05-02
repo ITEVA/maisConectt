@@ -121,11 +121,6 @@ div.conteudo > .box > a#botao{
          margin-bottom: 20px;
     }
 
-    div.conteudo > .box {
-        margin-left: 0;
-        margin-right: 0;
-    }
-
     h1#titulo {
         font-size: 40px;
     }

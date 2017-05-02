@@ -1,24 +1,24 @@
 <div class="col-lg-12 boxMaior">
     <div class="container">
-        <div class="col-lg-6 col-md-6 texto">
+        <div class="col-lg-6 col-md-6 col-sm-6 texto">
             <h1>Contate-nos</h1>
             <p>Entre em contato conosco para esclarecer dúvidas, relatar erros ou dar sugestões!</p>
 
             <div class="blocos">
-                <img src="Images/localizacao.jpg" alt="">
+                <img src="Images/localizacao.JPG" alt="">
                 <p class="emLinha">&nbsp;Endereço</p>
                 <p>Fortaleza-CE</p>
                 <p>Rua Jorge Acúrcio, 1095, Loja 8 - Vila União</p>
             </div>
 
             <div class="blocos">
-                <img src="Images/email.jpg" alt="">
+                <img src="Images/email.JPG" alt="">
                 <p class="emLinha">&nbsp;&nbsp;E-mail</p>
                 <p>maisconectt@gmail.com</p>
             </div>
 
             <div class="blocos">
-                <img src="Images/phone.jpg" alt="">
+                <img src="Images/phone.JPG" alt="">
                 <p class="emLinha">&nbsp;&nbsp;Fone</p>
                 <p>(85) 9 8799-0759</p>
                 <p>(85) 3025-2981</p>
@@ -26,16 +26,9 @@
 
         </div>
 
-        <div class="col-lg-6 col-md-6 formulario">
+        <div class="col-lg-6 col-md-6 col-sm-6 formulario">
             <form id="formContato" method="post">
                 <div class="container-fluid">
-
-                   <!-- <div class="alert alert-success alert-dismissible" id="emailSucesso" role="alert" style="background-color: #00a39b; color: #fff; border-color: #00a39b;">
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <strong>Email enviado com sucesso!</strong>
-                    </div>
-
-                    <div id="divEmailSucesso" class="container-fluid col-lg-12 form-group"><label id="lbEmailSucesso" class="control-label"></label></div>-->
                     <div class="form-group">
                         <input class="form-control campo" type="text" placeholder="Nome" id="nome" name="nome" required="required"/>
                     </div>
@@ -49,7 +42,7 @@
                     </div>
 
                     <div id="envio" class="form-group">
-                        <input class="btn btn-default" type="submit" text="Enviar" name="enviar" value="Enviar"/>
+                        <input id="botao" class="btn btn-default" type="submit" text="Enviar" name="enviar" value="Enviar"/>
                     </div>
                 </div>
             </form>
