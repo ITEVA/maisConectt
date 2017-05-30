@@ -11,6 +11,7 @@ $(document).ready(function(){
                 mensagem:$('#mensagem').val()}
         }).done(function(result) {
             r1 = result;
+            alert(result);
             if(r1 == 1){
                 toastr.options.closeButton = true;
                 toastr.success('O email foi enviado com sucesso!', '', {timeOut: 3000});

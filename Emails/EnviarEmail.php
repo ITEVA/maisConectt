@@ -4,21 +4,20 @@ function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $repl
 
     $mail = new PHPMailer(); //INICIA A CLASSE
     $mail->IsSMTP(); //Habilita envio SMPT
-    //$mail->SMTPDebug  = 1;
+    $mail->Host = 'smtp.office365.com'; //Servidor de envio
+    $mail->Port = 587 ; //Porta de envio
     $mail->SMTPAuth = true; //Ativa email autenticado
-    $mail->IsHTML(true);
+    $mail->Username = 'giselly.reboucas@iteva.org.br'; //email para smtp autenticado
+    $mail->Password = 'Iteva100'; //
     $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
+    $mail->From = 'giselly.reboucas@iteva.org.br'; //remetente
+    $mail->FromName = 'LinkCE'; //nome remetente
+
+    $mail->IsHTML(true);
+
 
     /* Protocolo da conexão */
-    $mail->SMTPSecure = "tls";
-
-    $mail->Host = 'smtp.live.com'; //Servidor de envio
-    $mail->Port = 587 ; //Porta de envio
-    $mail->Username = 'gisellyazevedo@hotmail.com'; //email para smtp autenticado
-    $mail->Password = 'gloriete12345'; //
-
-    $mail->From = 'gisellyazevedo@hotmail.com'; //remetente
-    $mail->FromName = 'LinkCE'; //nome remetente
+    //$mail->SMTPSecure = "tls";
 
     /* Enviar imagem */
     $mail->AddEmbeddedImage($logo, 'linkce');
@@ -39,7 +38,7 @@ function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $repl
     if($mail->Send()) {
         return 1;
     } else {
-        return 0;
+        $mail->ErrorInfo;
     }
 }
 ?> 

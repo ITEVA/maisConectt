@@ -6,8 +6,6 @@
 * Inclui classes de envio de email
 */
 require_once('../Classes/mail/PHPMailerAutoload.php');
-require_once('../Classes/mail/class.phpmailer.php');
-require_once('../Classes/mail/class.smtp.php');
 
 /* Inclui página de enviar email */
 require("EnviarEmail.php");
@@ -35,11 +33,13 @@ $mensagem ="<body>
                 </div>
             </body>"; 
 
-$result = sendMail('Fale Conosco - Site MaisConectt',$mensagem,'regisousa7@gmail.com','MaisConectt', NULL, NULL, NULL, '../Images/logoEmail.png');
+$result = sendMail('Fale Conosco - Site MaisConectt',$mensagem,'gisellyazevedo@hotmail.com','MaisConectt', NULL, NULL, NULL, '../Images/logoEmail.png');
 
-if($result == 1) {
+echo $result;
+
+/*if($result == 1) {
     echo 1;
 } else {
     echo 0;
-}
+}*/
 ?>
