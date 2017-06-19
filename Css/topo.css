@@ -24,6 +24,10 @@ a{
     text-decoration: none;
 }
 
+.navbar-brand {
+    padding: 8px 15px;
+}
+
 a:hover{
     text-decoration: none;
 }

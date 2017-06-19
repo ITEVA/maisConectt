@@ -1,14 +1,12 @@
 header#home {
-  background-image: url('../Images/banner01.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
   text-align: center;
   color: white;
+}
+
+div.textoBanner{
+  position: absolute;
+  z-index: 99999;
+  left: 20%;
 }
 header .intro-text {
   padding-top: 250px;
@@ -32,6 +30,9 @@ header .intro-text .intro-heading {
   line-height: 1.3;
 }
 
+.carousel-control:focus, .carousel-control{
+  height: 996px;
+}
 
 .btn-xl {
   color: white;

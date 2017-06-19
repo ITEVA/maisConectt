@@ -63,6 +63,7 @@ div.preco > p > sup{
 }
 
 div.taxa{
+    text-align: center;
     padding-top: 70px;
 }
 

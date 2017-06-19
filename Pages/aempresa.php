@@ -4,7 +4,7 @@
         <p>
             A MAIS CONECTT iniciou suas operações em 2010 em Fortaleza-ce
             no bairro Vila União. A decisão de fundar a empresa aconteceu
-            depois que seu fundador viu o à necessidade de atender a população
+            depois que seu fundador viu à necessidade de atender a população
             de baixa renda, e com o crescimento das grandes operadoras de internet
             na cidade, que utilizavam como meio de acesso, as linhas telefônicas.
             Estas eram pouco acessíveis e tinham alto custo na utilização.

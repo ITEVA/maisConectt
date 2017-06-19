@@ -14,7 +14,7 @@
                     <img src="Images/image3.PNG">
                 </div>
             </div>
-            <a href="#services" class="page-scroll btn btn-xl animated fadeIn banner">Detalhes</a>
+            <a href="#conteudo" class="page-scroll btn btn-xl animated fadeIn banner ancora">Confira</a>
         </div>
         <div id="conteudo"></div>
 
@@ -34,12 +34,12 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 preco">
-                <p><sup>R$</sup>70,00</p>
+                <p>BÁSICO</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa">
-                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: XMbps</p>
-                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: XMbps</p>
+                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: 10240Kbps</p>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: 1024Kbps</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 assinar">
@@ -53,12 +53,12 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 preco">
-                <p><sup>R$</sup>80,00</p>
+                <p>MEGA</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa">
-                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: XMbps</p>
-                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: XMbps</p>
+                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: 15360Kbps</p>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: 1536Kbps</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 assinar">
@@ -72,12 +72,12 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 preco">
-                <p class="ppDestaque"><sup>R$</sup>90,00</p>
+                <p class="ppDestaque">MEGA</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa">
-                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: XMbps</p>
-                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: XMbps</p>
+                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: 20480Kbps</p>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: 2048Kbps</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 assinar">
@@ -91,12 +91,31 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 preco">
-                <p><sup>R$</sup>100,00</p>
+                <p>ULTRA</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa">
-                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: XMbps</p>
-                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: XMbps</p>
+                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: 35840Kbps</p>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: 3584Kbps</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 assinar">
+                <p><a href="" class="page-scroll btn btn-xl">Assine</a></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12 plano">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 banda">
+                <img src="Images/50mega.JPG" alt="">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 preco">
+                <p>TOP</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa">
+                <i class="fa fa-download" title="Download">&nbsp;<p>XMbps</p></i><p>Download: 51200Kbps</p>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>XMbps</p></i><p>Upload: 5120Kbps</p>
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-2 col-xs-2 assinar">

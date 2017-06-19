@@ -80,10 +80,10 @@
                     <a class="page-scroll" href="aempresa">A empresa</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="assinatura">Assinatura</a>
+                    <a class="page-scroll" href="planos">Planos</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="teste">Teste de velocidade</a>
+                    <a class="page-scroll" href="http://beta.speedtest.net/pt" target="_blank">Teste de velocidade</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>
@@ -98,7 +98,7 @@
         </div>
 
         <div class="container">
-            <a class="navbar-brand page-scroll" href="home"><img src="Images/logomenu.png" alt=""></a>
+            <a class="navbar-brand page-scroll" href="home"><img src="Images/logoRodape.png" alt=""></a>
 
             <!-- Brand and toggle get grouped for better mobile display -->
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -114,10 +114,10 @@
                         <a class="page-scroll" href="aempresa">A empresa</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="assinatura">Assinatura</a>
+                        <a class="page-scroll" href="planos">Planos</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="teste">Teste de velocidade</a>
+                        <a class="page-scroll" href="http://beta.speedtest.net/pt" target="_blank">Teste de velocidade</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a>

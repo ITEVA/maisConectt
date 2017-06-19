@@ -22,7 +22,6 @@
                 <div class="contact"><p><img src="Images/rodapePhoneF.png" alt="">(85) 3025-2981</p></div>
 
                 <div class="redeSociais">
-                    <a href=""><i class="fa fa-facebook redes"></i></a>
                     <a href=""><i class="fa fa-whatsapp redes"></i></a>
                     <a href=""><i class="fa fa-google-plus redes"></i></a>
                 </div>
