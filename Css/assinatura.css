@@ -58,16 +58,11 @@ div.preco > p.ppDestaque{
     font-weight: 700;
 }
 
-div.preco > p > sup{
-    font-size: 30px;
-}
-
 div.taxa{
-    text-align: center;
     padding-top: 70px;
 }
 
-div.taxa > p{
+div.taxa > nobr > p{
     color: #3f3f3f;
 }
 
@@ -76,8 +71,9 @@ div.taxa > p.pDestaque{
     font-weight: 700;
 }
 
-div.taxa > p:nth-child(2){
+div.taxa > nobr > p{
     font-size: 30px;
+    line-height: 1.1;
 }
 
 div.taxa > p:last-child{
@@ -181,6 +177,14 @@ a.aDestaque{
     div.taxa {
         margin-right: 40px;
     }
+
+    div.preco {
+        padding-top: 60px;
+    }
+
+    div.conteudo > .box {
+        margin-left: 9%;
+    }
 }
 
 @media all and (max-width: 1500px){
@@ -237,8 +241,12 @@ a.aDestaque{
     }
 
     div.preco {
-        padding-top: 58px;
+        padding-top: 55px;
         margin-right: 10px;
+    }
+
+    div.taxa {
+        padding-top: 60px;
     }
 }
 
@@ -272,7 +280,7 @@ a.aDestaque{
         font-size: 24px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         font-size: 24px;
     }
 
@@ -287,10 +295,6 @@ a.aDestaque{
 }
 
 @media all and (max-width: 1260px){
-    #bandaLarga {
-        margin-left: 45%;
-        margin-top: -4%;
-    }
 
     div.conteudo > .box {
         padding-left: 0;
@@ -334,6 +338,10 @@ a.aDestaque{
 
     a.banner{
         font-size: 20px;
+    }
+
+    header .intro-text {
+        padding-top: 220px;
     }
 }
 
@@ -381,7 +389,7 @@ a.aDestaque{
         font-size: 23px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         font-size: 23px;
     }
 
@@ -420,7 +428,7 @@ a.aDestaque{
         padding-top: 40px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         font-size: 21px;
     }
 
@@ -442,11 +450,11 @@ a.aDestaque{
     }
 
     div.banda {
-        margin-right: 60px;
+        margin-right: 0;
     }
 
     div.preco {
-        margin-right: 40px;
+        margin-right: 0;
     }
 
     div.taxa {
@@ -460,7 +468,7 @@ a.aDestaque{
         font-size: 18px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         font-size: 18px;
     }
 
@@ -481,6 +489,10 @@ a.aDestaque{
         padding: 10px 40px 10px 40px;
     }
 
+    div.taxa {
+        padding-top: 45px;
+    }
+
 }
 
 @media all and (max-width: 840px){
@@ -496,6 +508,14 @@ a.aDestaque{
 
     div.plano {
         height: 125px;
+    }
+
+    div.assinar {
+        padding-top: 33px;
+    }
+
+    div.taxa {
+        padding-top: 39px;
     }
 
     div.preco > p {
@@ -514,7 +534,7 @@ a.aDestaque{
         font-size: 17px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         font-size: 17px;
     }
 }
@@ -525,18 +545,18 @@ a.aDestaque{
     }
 
     div.banda {
-        margin-right: 45px;
+        margin-right: 25px;
     }
 
     div.preco {
-        margin-right: 30px;
+        margin-right: 10px;
     }
 
     div.taxa {
         margin-right: 70px;
     }
 
-    div.taxa > p:nth-child(2){
+    div.taxa > nobr > p{
         width: 200px;
     }
 
@@ -549,8 +569,26 @@ a.aDestaque{
     }
 }
 
-@media all and (max-width: 620px){
-    div.taxa > p{
+@media all and (max-width: 700px){
+    div.banda {
+        margin-right: 35px;
+    }
+
+    div.preco > p {
+        font-size: 25px;
+    }
+
+    div.taxa {
+        padding-left: 0;
+    }
+
+    div.preco {
+        margin-right: 0;
+    }
+}
+
+@media all and (max-width: 672px){
+    div.taxa > nobr > p{
         display: none;
     }
 
@@ -560,34 +598,17 @@ a.aDestaque{
         font-size: 30px;
     }
 
-    div.taxa > i.fa > p{
-        font-size: 18px;
-        margin: 2px 0 10px;
+    div.preco {
+        margin-right: 5%;
+        padding-left: 3%;
     }
 
     div.taxa {
-        padding-top: 20px;
-        margin-right: 65px;
+        margin-right: 5%;
     }
 
     div.preco > p {
-        font-size: 28px;
-    }
-
-    div.banda > img {
-        width: 120px;
-    }
-
-    div.plano {
-        height: 110px;
-    }
-
-    div.preco {
-        padding-top: 30px;
-    }
-
-    div.assinar {
-        padding-top: 32px;
+        text-align: left;
     }
 
     .btn-xl {
@@ -596,13 +617,15 @@ a.aDestaque{
     }
 }
 
+@media all and (max-width: 620px){
+    header#assinatura {
+        height: 615px;
+    }
+}
+
 @media all and (max-width: 600px){
     div.banda > img {
         width: 100px;
-    }
-
-    div.banda {
-        margin-right: 35px;
     }
 
     div.preco > p {
@@ -619,15 +642,21 @@ a.aDestaque{
     }
 
     div.preco {
-        padding-top: 28px;
+        margin-right: 5%;
+        padding-left: 0;
+        padding-top: 25px;
     }
 
     div.taxa {
-        padding-top: 10px;
+        padding-top: 14px;
     }
 
     div.assinar {
-        padding-top: 25px;
+        padding-top: 18px;
+    }
+
+    div.banda {
+        margin-right: 20px;
     }
 }
 
@@ -637,24 +666,23 @@ a.aDestaque{
     }
 
     div.banda {
-        margin-right: 29px;
+        margin-right: 20px;
     }
 
     div.plano {
         height: 83px;
     }
 
+    div.taxa {
+        margin-right: 8%;
+    }
+
     div.preco {
-        margin-right: 14px;
-        padding-top: 23px;
+        margin-right: 3%;
     }
 
     div.preco > p {
         font-size: 22px;
-    }
-
-    div.taxa {
-        margin-right: 50px;
     }
 
     div.taxa > i.fa > p {
@@ -676,6 +704,11 @@ a.aDestaque{
 
     h1#titulo {
         font-size: 45px;
+    }
+
+    div.assinar > p > a.btn-xl {
+        font-size: 15px;
+        padding: 10px 25px 10px 25px;
     }
 }
 
@@ -704,6 +737,11 @@ a.aDestaque{
     .btn-xl {
         font-size: 15px;
         padding: 10px 25px 10px 25px;
+    }
+
+    h1#titulo {
+        font-size: 45px;
+        text-align: center;
     }
 }
 
@@ -736,11 +774,35 @@ a.aDestaque{
         font-size: 14px;
         padding: 10px 20px 10px 20px;
     }
+
+    a.seta{
+        display: none;
+    }
 }
 
 @media all and (max-width: 410px){
     div.taxa {
         margin-right: 40px;
+    }
+
+    div.preco {
+        margin-right: 0;
+    }
+
+    div.preco > p {
+        font-size: 15px;
+    }
+
+    div.banda {
+        margin-right: 26px;
+    }
+
+    div.taxa {
+        margin-right: 35px;
+    }
+
+    div.assinar > p > a.btn-xl {
+        padding: 5px 15px 5px 15px;
     }
 }
 
