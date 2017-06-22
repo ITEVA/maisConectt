@@ -43,7 +43,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a href="" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
@@ -62,7 +62,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a href="" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
@@ -81,7 +81,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a href="" class="page-scroll btn btn-xl aDestaque">Assine</a></p>
+                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl aDestaque">Assine</a></p>
             </div>
         </div>
 
@@ -100,7 +100,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a href="" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
@@ -119,8 +119,50 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a href="" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
     </div>
 </div>
+
+<!----------------------------- INICIO MODAL ------------------------------>
+
+<div class="modal fade" id="contrato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Forneça seus dados para receber um orçamento</h4>
+            </div>
+            <form id="formContrato" method="post">
+                <input id="plano" type="hidden" value="">
+                <input id="tipoPlano" type="hidden" value="">
+                <div class="modal-body">
+                    <div class="row">
+                        <p style="margin-left: 12px;"><span style="color: red">*</span> Campos Obrigatórios</>
+                        <div class="col-lg-6">
+                            <input class="form-control campos" name="nome" type="text" placeholder="Nome *" onkeypress="return letras()" required>
+                            <input id="celular" class="form-control campos" name="celular" type="tel" placeholder="Celular *" required>
+                            <input class="form-control campos" name="endereco" type="text" placeholder="Endereço *" required>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <input class="form-control campos" name="email" type="email" placeholder="E-mail *" required>
+                            <input id="telefone" class="form-control campos" name="telefone" type="tel" placeholder="Telefone">
+                            <input class="form-control campos" name="numero" type="text" placeholder="Número*" onkeypress="return numeros()" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-primary botao" id="enviar" value="Enviar" name="enviar"/>
+                    <input type="reset" class="btn btn-primary botao espacado" id="limpar" value="Limpar"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="JS/contrato.js"></script>
+<!----------------------------- FIM MODAL ------------------------------>
+

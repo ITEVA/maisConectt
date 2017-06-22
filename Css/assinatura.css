@@ -145,6 +145,15 @@ a.aDestaque{
 
 #mega20 img { width: 100%; }
 
+input.campos{
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+input.espacado{
+    margin-right: 18px;
+}
+
 @media all and (max-width: 1630px){
     #bandaLarga {
         margin-left: 60%;
@@ -832,7 +841,7 @@ a.aDestaque{
     }
 
     div.plano {
-        height: 73px;
+        height: 78px;
     }
 }
 

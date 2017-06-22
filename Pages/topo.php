@@ -5,6 +5,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="theme-color" content="#103A61">
         <meta name="description" content="">
         <meta name="author" content="">
         <meta charset="UTF-8">
@@ -16,6 +17,7 @@
 
         <script type="text/javascript" src="JS/agency.js"></script>
         <script type="text/javascript" src="JS/mapa.js"></script>
+        <script type="text/javascript" src="JS/contrato.js"></script>
         <!--<script type="text/javascript" src="JS/topo.js"></script>-->
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="JS/SmoothScroll.js"></script>
