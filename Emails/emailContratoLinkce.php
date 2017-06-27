@@ -4,7 +4,7 @@ $mensagem ="<body>
                 <div style='display: block; position:absolute; background-color: #f8f8f8; width: 500px;  height: 300px; border: 5px solid #1b6d85; border-bottom: 25px solid #1b6d85; border-top: 25px solid #1b6d85;background-color: #fff; padding: 20px;'>
                     
                     <div style='display: block; position: relative; float: left; width: 500px; height: 65px; left: 8px; top: 15px; margin-top: 15px;'>
-                        <img src='cid:linkce' style='width: 224px; height: 65px;'/>
+                        <img src='cid:maisconect' style='width: 224px; height: 45px;'/>
                     </div>
                     <br/>
                     <hr style='margin-top: 20px;'>
@@ -24,7 +24,7 @@ $mensagem ="<body>
                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://iteva.org.br/linkCe/'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://iteva.org.br/maisConectt/'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>";
@@ -55,4 +55,4 @@ $mensagem ="<body>
                 </div>
             </body>"; */
 
-$result2 = sendMail('Solicitação de orçamento',$mensagem,'regisousa7@gmail.com','LinkCE', NULL, NULL, NULL,NULL);
+$result2 = sendMail('Solicitação de orçamento',$mensagem,'regisousa7@gmail.com','Mais Conectt', NULL, NULL, NULL,'../Images/logoEmail.png');

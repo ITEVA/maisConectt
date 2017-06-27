@@ -352,6 +352,12 @@ input.espacado{
     header .intro-text {
         padding-top: 220px;
     }
+
+    header .assinatura {
+        padding-bottom: 290px;
+        padding-top: 228px;
+    }
+
 }
 
 @media all and (max-width: 1060px){
@@ -630,6 +636,10 @@ input.espacado{
     header#assinatura {
         height: 615px;
     }
+
+    .btn-xl {
+        float: left;
+    }
 }
 
 @media all and (max-width: 600px){
@@ -751,6 +761,15 @@ input.espacado{
     h1#titulo {
         font-size: 45px;
         text-align: center;
+    }
+
+    .btn-xl {
+        float: none;
+    }
+
+    header .assinatura {
+        padding-bottom: 200px;
+        padding-top: 228px;
     }
 }
 

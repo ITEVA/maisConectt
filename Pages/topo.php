@@ -17,13 +17,11 @@
 
         <script type="text/javascript" src="JS/agency.js"></script>
         <script type="text/javascript" src="JS/mapa.js"></script>
-        <script type="text/javascript" src="JS/contrato.js"></script>
         <!--<script type="text/javascript" src="JS/topo.js"></script>-->
         <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="JS/SmoothScroll.js"></script>
         <script type="text/javascript" src="JS/elementScroll.js"></script>
         <script type="text/javascript" src="JS/jquery.cycle.all.js"></script>
-        <script type="text/javascript" src="JS/jquery.maskedinput.js"></script>
         <script type="text/javascript" src="JS/toastr.min.js"></script>
         <!--<script type="text/javascript" src="JS/contato.js"></script>-->
 

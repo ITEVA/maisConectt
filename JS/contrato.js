@@ -2,10 +2,9 @@ $(document).ready(function(){
     $('div#emailSucesso').css("display", "none");
     $('div#aguarde').hide();
     $('div#erro').css("display", "none");
-    $("#telefone").mask("(99) 99999-9999");
-    $("#celular").mask("(99) 99999-9999");
     
     var r1;
+    var envio = 0;
 
     $("#formContrato").submit(function(e){
         toastr.options.closeButton = true;
@@ -16,17 +15,17 @@ $(document).ready(function(){
                 toastr.warning('Aguarde uma confirmação', {timeOut: 3000});
             }, 4000);
 
-
+        if(envio == 0){
+        envio = 1;
         $.ajax({
         method: "POST",
         url: "Emails/contrato.php",
-         data: {plano:$('#plano').val(),tipoPlano:$('#tipoPlano').val(),nome:$('#nome').val(),
-                email:$('#email').val(),celular:$('#celular').val(), telefone:$('#telefone').val(),
-                rua:$('#rua').val(), cidade:$('#sel1').val(),
-                numero:$('#numero').val(), bairro:$('#sel2').val()}
+         data: {plano:$('#plano').val(), nome:$('#nome').val(), email:$('#email').val(), celular:$('#celular').val(), telefone:$('#telefone').val(),
+                endereco:$('#endereco').val(), numero:$('#numero').val()}
         
         }).done(function(result) {
             r1 = result;
+            alert(result);
             if(r1 == 1){
                 toastr.options.closeButton = true;
                 toastr.success('O email foi enviado com sucesso!', '', {timeOut: 3000});
@@ -38,8 +37,7 @@ $(document).ready(function(){
                 toastr.error('Erro ao enviar email!', 'Tente novamente.', {timeOut: 3000});
             }
         });
-
-
+        }
 
         return false;
     });

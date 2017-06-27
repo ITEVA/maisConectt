@@ -1,6 +1,8 @@
+
+<link rel="stylesheet" href="Css/assinatura.css">
 <header id="assinatura">
     <div class="container">
-        <div class="intro-text assinatura">
+        <div class="assinatura intro-text">
             <div class="row-fluid">
                 <div id="bandaLarga" class="animated fadeInDownBig txtBanner">
                     <img src="Images/image1.PNG">
@@ -43,7 +45,8 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a plano = "10
+" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
@@ -62,7 +65,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a plano = "15" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
@@ -81,7 +84,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl aDestaque">Assine</a></p>
+                <p><a plano = "20" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl aDestaque">Assine</a></p>
             </div>
         </div>
 
@@ -100,13 +103,13 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a plano = "35" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 
         <div class="col-lg-12 plano">
             <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 banda">
-                <img src="Images/50mega.JPG" alt="">
+                <img src="Images/50mega.jpg" alt="">
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 preco">
@@ -119,7 +122,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a plano = "50" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
     </div>
@@ -137,20 +140,19 @@
             </div>
             <form id="formContrato" method="post">
                 <input id="plano" type="hidden" value="">
-                <input id="tipoPlano" type="hidden" value="">
                 <div class="modal-body">
                     <div class="row">
                         <p style="margin-left: 12px;"><span style="color: red">*</span> Campos Obrigatórios</>
                         <div class="col-lg-6">
-                            <input class="form-control campos" name="nome" type="text" placeholder="Nome *" onkeypress="return letras()" required>
-                            <input id="celular" class="form-control campos" name="celular" type="tel" placeholder="Celular *" required>
-                            <input class="form-control campos" name="endereco" type="text" placeholder="Endereço *" required>
+                            <input id="nome" class="form-control campos" name="nome"  type="text" placeholder="Nome *" onkeypress="return letras()" required>
+                            <input id="celular" class="form-control campos" name="celular" type="tel" placeholder="Celular *" required data-mask="(00) 00000-0000" data-mask-selectonfocus="true">
+                            <input id="endereco" class="form-control campos" name="endereco" type="text" placeholder="Endereço *" required>
                         </div>
 
                         <div class="col-lg-6">
-                            <input class="form-control campos" name="email" type="email" placeholder="E-mail *" required>
-                            <input id="telefone" class="form-control campos" name="telefone" type="tel" placeholder="Telefone">
-                            <input class="form-control campos" name="numero" type="text" placeholder="Número*" onkeypress="return numeros()" required>
+                            <input id="email" class="form-control campos" name="email" type="email" placeholder="E-mail *" required>
+                            <input id="telefone" class="form-control campos" name="telefone" type="tel" placeholder="Telefone" data-mask="(00) 0000-0000" data-mask-selectonfocus="true">
+                            <input id="numero" class="form-control campos" name="numero" type="text" placeholder="Número*" onkeypress="return numeros()" required>
                         </div>
                     </div>
                 </div>
@@ -164,5 +166,6 @@
 </div>
 
 <script type="text/javascript" src="JS/contrato.js"></script>
+<script type="text/javascript" src="JS/jquery.mask.min.js"></script>
 <!----------------------------- FIM MODAL ------------------------------>
 

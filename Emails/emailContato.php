@@ -33,7 +33,7 @@ $mensagem ="<body>
                 </div>
             </body>"; 
 
-$result = sendMail('Fale Conosco - Site MaisConectt',$mensagem,'gisellyazevedo@hotmail.com','MaisConectt', NULL, NULL, NULL, '../Images/logoEmail.png');
+$result = sendMail('Fale Conosco - Site MaisConectt', $mensagem, 'regisousa7@gmail.com', 'Mais Conectt', NULL, NULL, NULL, '../Images/logoRodape.png');
 
 echo $result;
 
