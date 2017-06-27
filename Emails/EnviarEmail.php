@@ -18,7 +18,7 @@ function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $repl
 
 
     /* Enviar imagem */
-    $mail->AddEmbeddedImage($logo, 'maisConectt');
+    $mail->AddEmbeddedImage($logo, 'maisconectt');
 
     if($reply != NULL){
         $mail->AddReplyTo($reply,$replyNome);

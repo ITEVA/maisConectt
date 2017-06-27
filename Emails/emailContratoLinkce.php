@@ -3,8 +3,8 @@
 $mensagem ="<body>
                 <div style='display: block; position:absolute; background-color: #f8f8f8; width: 500px;  height: 300px; border: 5px solid #1b6d85; border-bottom: 25px solid #1b6d85; border-top: 25px solid #1b6d85;background-color: #fff; padding: 20px;'>
                     
-                    <div style='display: block; position: relative; float: left; width: 500px; height: 65px; left: 8px; top: 15px; margin-top: 15px;'>
-                        <img src='cid:maisconect' style='width: 224px; height: 45px;'/>
+                    <div style='display: block; position: relative; float: left; width: 500px; height: 65px; left: 8px; top: 35px;'>
+                        <img src='cid:maisconectt' style='width: 224px; height: 45px;'/>
                     </div>
                     <br/>
                     <hr style='margin-top: 20px;'>
@@ -56,3 +56,4 @@ $mensagem ="<body>
             </body>"; */
 
 $result2 = sendMail('Solicitação de orçamento',$mensagem,'regisousa7@gmail.com','Mais Conectt', NULL, NULL, NULL,'../Images/logoEmail.png');
+
