@@ -27,3 +27,15 @@ $(document).ready(function(){
     });
 });
 
+
+$(function(){
+    $("#mapa").mouseenter(function(){
+        $(".infoMapa").css("display", "block");
+    });
+});
+
+$(function(){
+    $("#mapa").mouseout(function(){
+        $(".infoMapa").css("display", "none");
+    });
+});

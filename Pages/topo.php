@@ -38,10 +38,10 @@
 
         <link rel="stylesheet" href="Css/topo.css">
         <link rel="stylesheet" href="Css/style.css">
-        <link rel="stylesheet" href="Css/home.css">
         <link rel="stylesheet" href="Css/assinatura.css">
         <link rel="stylesheet" href="Css/agency.css">
         <link rel="stylesheet" href="Css/toastr.min.css">
+        <link rel="stylesheet" href="Css/home.css">
         <!-- Latest compiled and minified JavaScript -->
         <?php echo (file_exists("Css/{$url[0]}.css")) ? "<link rel=\"stylesheet\" href=\"Css/{$url[0]}.css\">" : ""; ?>
 

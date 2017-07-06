@@ -8,9 +8,14 @@ div.textoBanner{
   z-index: 99999;
   left: 20%;
 }
+
 header .intro-text {
   padding-top: 250px;
   padding-bottom: 360px;
+}
+
+.carousel-control {
+  width: 4%;
 }
 
 .intro-text > .intro-lead-in > h1{
@@ -798,6 +803,12 @@ div.boxCinza > .col-lg-7 > p {
   }
 }
 
+@media all and (max-width: 408px){
+  div.taxa > i.fa {
+    font-size: 16px;
+  }
+}
+
 @media all and (max-width: 370px){
   div.boxCinza > .col-lg-5 > img{
     width: 100%;
@@ -807,14 +818,6 @@ div.boxCinza > .col-lg-7 > p {
 @media all and (max-width: 400px){
   div.taxa {
     display: none;
-  }
-
-  div.preco {
-    margin-right: 45px;
-  }
-
-  div.banda {
-    margin-right: 100px;
   }
 
   .intro-text > .intro-lead-in > h1 {

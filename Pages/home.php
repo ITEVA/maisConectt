@@ -44,7 +44,7 @@
                 <img class="imgBanner1" src="Images/banner2.jpg" alt="Chania">
             </div>
         </div>
-        <!-- Left and right controls
+        <!-- Left and right controls-->
         <a class="left carousel-control" href="#myCarousel" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
@@ -53,7 +53,7 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
         </a>
-    </div>-->
+    </div>
 
     <a class="page-scroll ancora seta" href="#conteudo"><img class="down" src="Images/arrowDown.png" alt=""></a>
 </header>
@@ -61,7 +61,7 @@
 
 <div class="separatriz"></div>
 
-<div class="col-lg-12 acessoRapido">
+<div class="col-lg-12 acessoRapido acessoHome">
     <h1 class="title">Acesso rápido</h1>
 
     <div class="col-lg-3 col-md-6 col-sm-6">
@@ -109,22 +109,115 @@
     </div>
 </div>
 
-<div class="col-lg-12 boxCinza">
-    <div class="col-lg-5 col-sm-5">
-        <img src="Images/mulherC.png" alt="">
-    </div>
-    
-    <div class="col-lg-7 col-sm-7">
-        <h1>Lorem ipsum dolor sit amet,
-            cras ut amet orci</h1>
 
-        <p>Lorem ipsum dolor sit amet, cras ut amet orci eleifend elementum magna,
-            a turpis, sed mollis nullam nunc viverra viverra, et faucibus in
-            tinci&shy;dunt porttitor, eros malesuada velit.Metus metus blandit dignissim
-            imperdiet dis ut, duis nulla diam.  Metus metus blandit dignissim imperdiet
-            dis ut, duis nulla diam. </p>
+<div style="background-color: #ffffff" class="col-lg-12">
+    <div class="pDestaque">
+        <p id="pTitle">Planos em Destaque</p>
+        <p id="pPlano">Selecionamos nossos planos mais assinados para que você possa parte da +Conectt</p>
     </div>
 </div>
+
+<div style="background-color: #F7F7F7" class="col-lg-12 conteudo">
+    <div class="col-lg-10 box boxHome">
+        <div class="col-lg-12 plano">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 banda">
+                <img src="Images/15mega.JPG" alt="">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 preco preHome">
+                <p>MEGA</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa taxaHome">
+                <i class="fa fa-download" title="Download">&nbsp;<p>15360Kbps</p></i><nobr><p>Download: 15360Kbps</p></nobr>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>1536Kbps</p></i><nobr><p>Upload: 1536Kbps</p></nobr>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
+                <p><a plano = "15" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl btnPla">Assine</a></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12 plano destaque">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 banda">
+                <img src="Images/20mega.JPG" alt="">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 preco preHome">
+                <p class="ppDestaque">MEGA</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa taxaHome">
+                <i style="font-weight: bold;" class="fa fa-download" title="Download">&nbsp;<p style="font-weight: bold;">20480Kbps</p></i><nobr><p style="font-weight: bold;">Download: 20480Kbps</p></nobr>
+                <i style="font-weight: bold;" class="fa fa-upload" title="Upload">&nbsp;<p style="font-weight: bold;">2048Kbps</p></i><nobr><p style="font-weight: bold;">Upload: 2048Kbps</p></nobr>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
+                <p><a plano = "20" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl aDestaque btnPla">Assine</a></p>
+            </div>
+        </div>
+
+        <div class="col-lg-12 plano">
+            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 banda">
+                <img src="Images/35mega.JPG" alt="">
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-2 preco preHome">
+                <p>ULTRA</p>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 taxa taxaHome">
+                <i class="fa fa-download" title="Download">&nbsp;<p>35840Kbps</p></i><nobr><p>Download: 35840Kbps</p></nobr>
+                <i class="fa fa-upload" title="Upload">&nbsp;<p>3584Kbps</p></i><nobr><p>Upload: 3584Kbps</p></nobr>
+            </div>
+
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
+                <p><a plano = "35" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl btnPla">Assine</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------------- INICIO MODAL ------------------------------>
+
+<div class="modal fade" id="contrato" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Forneça seus dados para receber um orçamento</h4>
+            </div>
+            <form id="formContrato" method="post">
+                <input id="plano" type="hidden" value="">
+                <div class="modal-body">
+                    <div class="row">
+                        <p style="margin-left: 12px;"><span style="color: red">*</span> Campos Obrigatórios</>
+                        <div class="col-lg-6">
+                            <input id="nome" class="form-control campos" name="nome"  type="text" placeholder="Nome *" onkeypress="return letras()" required>
+                            <input id="celular" class="form-control campos" name="celular" type="tel" placeholder="Celular *" required data-mask="(00) 00000-0000" data-mask-selectonfocus="true">
+                            <input id="endereco" class="form-control campos" name="endereco" type="text" placeholder="Endereço *" required>
+                        </div>
+
+                        <div class="col-lg-6">
+                            <input id="email" class="form-control campos" name="email" type="email" placeholder="E-mail *" required>
+                            <input id="telefone" class="form-control campos" name="telefone" type="tel" placeholder="Telefone" data-mask="(00) 0000-0000" data-mask-selectonfocus="true">
+                            <input id="numero" class="form-control campos" name="numero" type="text" placeholder="Número*" onkeypress="return numeros()" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <input type="submit" class="btn btn-primary botao" id="enviar" value="Enviar" name="enviar"/>
+                    <input type="reset" class="btn btn-primary botao espacado" id="limpar" value="Limpar"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="JS/contrato.js"></script>
+<script type="text/javascript" src="JS/jquery.mask.min.js"></script>
+<!----------------------------- FIM MODAL ------------------------------>
 
 
 

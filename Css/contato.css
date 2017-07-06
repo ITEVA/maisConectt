@@ -6,6 +6,20 @@ div.boxMaior{
     padding-right: 0;
 }
 
+div.infoMapa{
+    background-color:  #0D2D4B;
+    text-align: center;
+    color: #fff;
+    width: 165px;
+    padding: 15px;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 360px;
+    z-index: 9;
+    opacity: 0.8;
+    display: none;
+}
+
 div.boxMaior > div.container > div.texto > h1{
     font-weight: normal;
     font-size: 55px;
@@ -207,5 +221,10 @@ div.mapa{
 
     iframe.iframeMapa {
         height: 500px;
+    }
+
+    div.infoMapa {
+        margin-top: 175px;
+        margin-left: 10px;
     }
 }

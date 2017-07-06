@@ -45,8 +45,7 @@
             </div>
 
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 assinar">
-                <p><a plano = "10
-" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
+                <p><a plano = "10" data-toggle="modal" data-target="#contrato" class="page-scroll btn btn-xl">Assine</a></p>
             </div>
         </div>
 

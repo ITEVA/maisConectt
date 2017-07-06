@@ -44,7 +44,7 @@
             <img src="Images/logoRodape.png" alt="">
         </div>
 
-        <div class="col-lg-7 col-md-7 col-sm-7">
+        <div style="padding-top: 15px" class="col-lg-7 col-md-7 col-sm-7">
             <?php
                 date_default_timezone_set('America/Fortaleza');
             ?>

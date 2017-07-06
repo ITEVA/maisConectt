@@ -49,7 +49,9 @@
         </div>
     </div>
 
-    <div class="col-lg-12 mapa">
+
+    <div id="infoMapa" class="infoMapa"><p>Clique no mapa para movimentá-lo</p></div>
+    <div id="mapa" class="col-lg-12 mapa">
         <iframe class="iframeMapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1990.5923568593068!2d-38.53418929942113!3d-3.7699495997575743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74ed3e830a4bd%3A0x1612b20e3f48c64c!2sMais+Conectt!5e0!3m2!1spt-BR!2sbr!4v1493317534186" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
 </div>

@@ -834,6 +834,16 @@ input.espacado{
     }
 }
 
+@media all and (max-width: 400px){
+    div.banda {
+        margin-right: 25%;
+    }
+
+    div.preco {
+        margin-right: 14%;
+    }
+}
+
 @media all and (max-width: 380px){
     div.preco > p {
         font-size: 18px;
@@ -841,14 +851,6 @@ input.espacado{
 
     div.preco > p > sup {
         font-size: 11px;
-    }
-
-    div.banda {
-        margin-right: 35px;
-    }
-
-    div.preco {
-        margin-right: 6px;
     }
 
     .btn-xl {
@@ -870,17 +872,13 @@ input.espacado{
     }
 
     div.banda {
-        margin-right: 30px;
+        margin-right: 25%;
     }
 }
 
 @media all and (max-width: 334px){
     div.banda > img {
         width: 75px;
-    }
-
-    div.banda {
-        margin-right: 28px;
     }
 
     div.preco > p {
@@ -901,7 +899,11 @@ input.espacado{
         font-size: 15px;
     }
 
+    div.banda {
+        margin-right: 21%;
+    }
+
     div.preco {
-        margin-right: 0;
+        margin-right: 17%;
     }
 }

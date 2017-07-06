@@ -36,7 +36,7 @@ $mensagem = "<body>
                 </div>
             </body>";
 
-$anexo = '../curioPlanos.pdf';
+$anexo = '../planosMaisConectt.pdf';
 
 $result = sendMail('Planos - Mais Conectt', $mensagem, $_POST['email'], $_POST['nome'], NULL, NULL, $anexo, '../Images/logoEmail.png');
 if ($result == 1) {
