@@ -6,12 +6,12 @@
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Mapa do site</p>
                 <ul>
-                    <li><p class="liAzul">Início</p></li>
-                    <li><p class="liAzul">A empresa</p></li>
-                    <li><p class="liAzul">Assinatura</p></li>
-                    <li><p class="liAzul">Teste de Velocidade</p></li>
-                    <li><p class="liAzul">2ª via de boleto</p></li>
-                    <li><p class="liAzul">Contatos</p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="home">Início</a></p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="aempresa">A empresa</a></p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="planos">Assinatura</a></p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="http://beta.speedtest.net/pt" target="_blank">Teste de Velocidade</a></p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">2ª via de boleto</a></p></li>
+                    <li><p class="liAzul"><a style="color: #ffffff" href="contato">Contatos</a></p></li>
                 </ul>
             </div>
 

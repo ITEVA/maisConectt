@@ -69,8 +69,7 @@
             <div class="conteudoAcesso">
                 <img src="Images/acessoRapido1.jpg" alt="">
                 <h3>Assine Já!</h3>
-                <p>Lorem ipsum dolor sit amet,
-                    orci eleifend elementum magna.</p>
+                <p>Preencha o formulário e solicite um orçamento ou ligue-nos</p>
             </div>
         </a>
     </div>
@@ -80,8 +79,7 @@
             <div class="conteudoAcesso">
                 <img class="media" src="Images/acessoRapido2_1.jpg" alt="">
                 <h3>2ª via de boleto</h3>
-                <p>Lorem ipsum dolor sit amet,
-                    orci eleifend elementum magna.</p>
+                <p>Seu boleto venceu?, atualize seus boletos.</p>
             </div>
         </a>
     </div>
@@ -91,8 +89,7 @@
             <div class="conteudoAcesso">
                 <img class="menores" src="Images/acessoRapido3.jpg" alt="">
                 <h3>Vídeo</h3>
-                <p>Lorem ipsum dolor sit amet,
-                    orci eleifend elementum magna.</p>
+                <p>Descubra como o sinal de Wi-Fi circula pela sua casa.</p>
             </div>
         </a>
     </div>
@@ -102,8 +99,7 @@
             <div class="conteudoAcesso">
                 <img class="menores" src="Images/acessoRapido4.jpg" alt="">
                 <h3>Fale conosco</h3>
-                <p>Lorem ipsum dolor sit amet,
-                    orci eleifend elementum magna.</p>
+                <p>Contate-nos, tire dúvidas, solicite orcamentos e mais!</p>
             </div>
         </a>
     </div>
