@@ -75,7 +75,7 @@
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-        <a href="http://177.136.74.106:8080/sac/open.do?action=open&sys=SAC" target="_blank">
+        <a href="https://www.santander.com.br/br/resolva-on-line/reemissao-de-boleto-vencido" target="_blank">
             <div class="conteudoAcesso">
                 <img class="media" src="Images/acessoRapido2_1.jpg" alt="">
                 <h3>2ª via de boleto</h3>
@@ -85,7 +85,7 @@
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-6">
-        <a href="">
+        <a href="https://www.youtube.com/watch?v=pMCEoiexn1o" target="_blank">
             <div class="conteudoAcesso">
                 <img class="menores" src="Images/acessoRapido3.jpg" alt="">
                 <h3>Vídeo</h3>

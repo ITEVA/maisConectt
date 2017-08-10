@@ -17,8 +17,8 @@
 
             <div class="col-lg-4 col-md-4 col-sm-4">
                 <p>Contatos</p>
-                <div class="contact"><p><img src="Images/rodapeEmail.jpg" alt="">maisconectt@gmail.com</p></div>
-                <div class="contact"><p><img src="Images/rodapePhone.jpg" alt="">(85) 9 8799-0759</p></div>
+                <div class="contact"><p><img src="Images/rodapeEmail.jpg" alt=""> maisconectt@gmail.com</p></div>
+                <div class="contact"><p><img src="Images/rodapePhone.jpg" alt=""> (85) 9 8799-0759</p></div>
                 <div class="contact"><p><img src="Images/rodapePhoneF.png" alt="">(85) 3025-2981</p></div>
 
                 <div class="redeSociais">
