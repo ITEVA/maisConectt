@@ -24,7 +24,7 @@ $mensagem ="<body>
                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://iteva.org.br/maisConectt/'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://www.maisconectt.com.br/'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>";

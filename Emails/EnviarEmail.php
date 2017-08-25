@@ -8,12 +8,12 @@ function sendMail($assunto,$mensagem,$destino,$nomeDestino, $reply = NULL, $repl
     $mail->IsHTML(true);
     $mail->CharSet = "UTF-8"; // Charset da mensagem (opcional)
     /* Protocolo da conexão */
-    $mail->SMTPSecure = "tls";
-    $mail->Host = 'smtp.office365.com'; //Servidor de envio
-    $mail->Port = 587 ; //Porta de envio
-    $mail->Username = 'giselly.reboucas@iteva.org.br'; //email para smtp autenticado
-    $mail->Password = 'Iteva100'; //
-    $mail->From = 'giselly.reboucas@iteva.org.br'; //remetente
+    //$mail->SMTPSecure = "ssl\tls";
+    $mail->Host = 'nuvem34br.hoteldaweb.com.br'; //Servidor de envio
+    $mail->Port = 26 ; //Porta de envio
+    $mail->Username = 'contato@maisconectt.com.br'; //email para smtp autenticado
+    $mail->Password = 'Maisconectt100'; //
+    $mail->From = 'contato@maisconectt.com.br'; //remetente
     $mail->FromName = 'Mais Conectt'; //nome remetente
 
 

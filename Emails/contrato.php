@@ -57,17 +57,16 @@ if ($result == 1) {
                         ."<p><b>Telefone: </b>".$_POST['telefone']. "&nbsp;&nbsp;&nbsp;<b>Celular: </b>".$_POST['celular']."</p>"
                         ."<p><b>Rua: </b>".$_POST['endereco']."</p>"
                         ."<p><b>Número: </b>".$_POST['numero']."</p>"
-                        ."<p><b>Plano: </b>".$_POST['plano']."&nbsp;MB&nbsp;"."</p>"
                         ."<p><b>Data: </b>".date('d/m/Y')."</p>
                                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://iteva.org.br/maisConectt'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://www.maisconectt.com.br'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>";
 
-    $result2 = sendMail('Solicitação de orçamento',$mensagem2,'regisousa7@gmail.com','Mais Conectt', NULL, NULL, NULL, '../Images/logoEmail.png');
+    $result2 = sendMail('Solicitação de orçamento',$mensagem2,'contato@maisconectt.com','Mais Conectt', NULL, NULL, NULL, '../Images/logoEmail.png');
     if($result2 == 1) {
         echo '1';
     } else {

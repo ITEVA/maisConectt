@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="siteIteva" />
     <orderEntry type="module" module-name="siteConnect" />
+    <orderEntry type="module" module-name="cdf" />
   </component>
 </module>

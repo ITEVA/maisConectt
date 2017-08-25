@@ -14,7 +14,7 @@ $mensagem ="<body>
                 <div style='display: block; position:absolute; background-color: #f8f8f8; width: 500px;  min-height: 600px; height: auto; border: 5px solid #1b6d85; border-bottom: 25px solid #1b6d85; border-top: 25px solid #1b6d85;background-color: #fff; padding: 20px;'>
                     
                     <div style='display: block; position: relative; float: left; width: 500px; height: 65px; left: 8px; top: 15px;'>
-                        <img src='cid:maisconectt' style='width: 224px; height: 65px;'/>
+                        <img src='cid:maisconectt' style='width: 224px; height: 45px;'/>
                     </div>
                     <br/>
                     <hr style='margin-top: 20px;'>
@@ -28,18 +28,17 @@ $mensagem ="<body>
                     </div></br>
                     <hr>
                     <div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <a href='http://maisconectt.com.br'>clique aqui para ser redirecionado ao site</a>  
+                        <a href='http://www.maisconectt.com.br'>clique aqui para ser redirecionado ao site</a>  
                     </div>
                 </div>
             </body>"; 
 
-$result = sendMail('Fale Conosco - Site MaisConectt', $mensagem, 'regisousa7@gmail.com', 'Mais Conectt', NULL, NULL, NULL, '../Images/logoRodape.png');
+$result = sendMail('Fale Conosco - Site MaisConectt', $mensagem, 'contato@maisconectt.com', 'Mais Conectt', NULL, NULL, NULL, '../Images/logoEmail.png');
 
-echo $result;
 
-/*if($result == 1) {
+if($result == 1) {
     echo 1;
 } else {
     echo 0;
-}*/
+}
 ?>

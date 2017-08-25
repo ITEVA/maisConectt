@@ -10,12 +10,12 @@ $mensagem = "<body>
                     <div style='display: block; position: absolute; font-size: 14pt; margin-top: 120px; top: 120px; text-align: left;'>"
     ."<p>Olá <b style='color: #3c3c3c;'>".$_POST['nome']."</b>!</p>"
     ."<p>Segue em anexo um arquivo com os planos e preços oferecidos pela Mais Conectt.</p>"
-    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 9 8799-0759 | (85) 3025-2981 | maisconectt@gmail.com</br></p>"
-    ."<p>Att.</br>Mais Conectt</p>"
+    ."<p>Para obter mais informações entre em contato conosco: </br>(85) 9 8799-0759 | (85) 3025-2981 | contato@maisconectt.com</br></p>"
+    ."<p>Att. </br>Mais Conectt</p>"
     ."</div>"
 
     ."<div style='display: block; position: relative; text-align: left; font-size: 12pt; top: 175px;'>
-                        <p><a href='http://iteva.org.br/maisConectt'>clique aqui para ser redirecionado ao site</a></p>  
+                        <p><a href='http://www.maisconectt.com.br'>clique aqui para ser redirecionado ao site</a></p>  
                     </div>
                     
                 </div>
